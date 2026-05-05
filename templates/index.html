@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrediCare - Preeclampsia Risk Predictor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1e40af;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --bg-light: #f8fafc;
+            --bg-white: #ffffff;
+            --bg-card: #f1f5f9;
+            --border: #e2e8f0;
+            --text-dark: #1e293b;
+            --text-muted: #64748b;
+            --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--bg-white);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 0;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .nav {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav a {
+            color: var(--text-dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav a:hover {
+            color: var(--primary);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .form-section {
+            background-color: var(--bg-white);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+        }
+
+        .form-section h3 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--text-dark);
+        }
+
+        input[type="number"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 1rem;
+            font-family: inherit;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        input[type="number"]:focus,
+        input[type="date"]:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        button {
+            background-color: var(--primary);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        button:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .btn-secondary {
+            background-color: var(--text-muted);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--text-dark);
+        }
+
+        .btn-block {
+            width: 100%;
+        }
+
+        .results {
+            margin-top: 2rem;
+        }
+
+        .risk-card {
+            background-color: var(--bg-white);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--primary);
+        }
+
+        .risk-card.severe {
+            border-left-color: var(--danger);
+            background-color: rgba(239, 68, 68, 0.05);
+        }
+
+        .risk-card.moderate {
+            border-left-color: var(--warning);
+            background-color: rgba(245, 158, 11, 0.05);
+        }
+
+        .risk-card.low {
+            border-left-color: var(--success);
+            background-color: rgba(16, 185, 129, 0.05);
+        }
+
+        .risk-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .risk-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .risk-card.severe .risk-value {
+            color: var(--danger);
+        }
+
+        .risk-card.moderate .risk-value {
+            color: var(--warning);
+        }
+
+        .risk-card.low .risk-value {
+            color: var(--success);
+        }
+
+        .risk-description {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .metric {
+            background-color: var(--bg-card);
+            padding: 1rem;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .metric-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+        }
+
+        .alert {
+            padding: 1rem;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+            border-left: 4px solid;
+        }
+
+        .alert-success {
+            background-color: rgba(16, 185, 129, 0.1);
+            border-left-color: var(--success);
+            color: #065f46;
+        }
+
+        .alert-warning {
+            background-color: rgba(245, 158, 11, 0.1);
+            border-left-color: var(--warning);
+            color: #92400e;
+        }
+
+        .alert-danger {
+            background-color: rgba(239, 68, 68, 0.1);
+            border-left-color: var(--danger);
+            color: #991b1b;
+        }
+
+        .alert-info {
+            background-color: rgba(37, 99, 235, 0.1);
+            border-left-color: var(--primary);
+            color: #1e40af;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            background-color: var(--bg-white);
+        }
+
+        .table th {
+            background-color: var(--bg-card);
+            padding: 0.75rem;
+            text-align: left;
+            font-weight: 600;
+            color: var(--text-dark);
+            border-bottom: 2px solid var(--border);
+        }
+
+        .table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .table tbody tr:hover {
+            background-color: var(--bg-light);
+        }
+
+        .tabs {
+            display: flex;
+            gap: 0;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .tab {
+            padding: 1rem;
+            cursor: pointer;
+            background: none;
+            border: none;
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            border-bottom: 3px solid transparent;
+            transition: color 0.3s;
+        }
+
+        .tab:hover {
+            color: var(--text-dark);
+        }
+
+        .tab.active {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .spinner {
+            border: 4px solid var(--bg-card);
+            border-top: 4px solid var(--primary);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        footer {
+            background-color: var(--bg-white);
+            border-top: 1px solid var(--border);
+            padding: 2rem 0;
+            margin-top: 3rem;
+            text-align: center;
+            color: var(--text-muted);
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nav {
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">🏥 PrediCare</div>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#assessment">Assessment</a>
+                <a href="#about">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="hero">
+            <h1>Preeclampsia Risk Assessment</h1>
+            <p>AI-Powered Clinical Decision Support for Pregnancy Care</p>
+        </div>
+
+        <div class="form-grid">
+            <div class="form-section">
+                <h3>👤 Demographics</h3>
+                <div class="form-group">
+                    <label for="age">Age (years)</label>
+                    <input type="number" id="age" min="14" max="50" value="28" step="1">
+                </div>
+                <div class="form-group">
+                    <label for="ga_weeks">Gestational Age (weeks)</label>
+                    <input type="number" id="ga_weeks" min="14" max="42" value="20" step="1">
+                </div>
+                <div class="form-group">
+                    <label for="visit_date">Visit Date</label>
+                    <input type="date" id="visit_date">
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h3>💓 Vital Signs</h3>
+                <div class="form-group">
+                    <label for="sbp">Systolic BP (mmHg)</label>
+                    <input type="number" id="sbp" min="80" max="200" value="120" step="2">
+                </div>
+                <div class="form-group">
+                    <label for="dbp">Diastolic BP (mmHg)</label>
+                    <input type="number" id="dbp" min="40" max="130" value="80" step="2">
+                </div>
+                <div class="form-group">
+                    <label for="hr">Heart Rate (bpm)</label>
+                    <input type="number" id="hr" min="40" max="120" value="75" step="2">
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h3>🧪 Laboratory Values</h3>
+                <div class="form-group">
+                    <label for="platelet_count">Platelet Count (K/μL)</label>
+                    <input type="number" id="platelet_count" min="50" max="500" value="250" step="10">
+                </div>
+                <div class="form-group">
+                    <label for="creatinine">Creatinine (mg/dL)</label>
+                    <input type="number" id="creatinine" min="0.3" max="3.0" value="0.8" step="0.1">
+                </div>
+                <div class="form-group">
+                    <label for="protein_urine">Proteinuria (g/24h)</label>
+                    <input type="number" id="protein_urine" min="0" max="10" value="0.1" step="0.1">
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h3>🧬 Chemistry</h3>
+                <div class="form-group">
+                    <label for="ast">AST (U/L)</label>
+                    <input type="number" id="ast" min="5" max="300" value="30" step="5">
+                </div>
+                <div class="form-group">
+                    <label for="alt">ALT (U/L)</label>
+                    <input type="number" id="alt" min="5" max="300" value="25" step="5">
+                </div>
+                <div class="form-group">
+                    <label for="submit">&nbsp;</label>
+                    <button class="btn-block" onclick="calculateRisk()">Calculate Risk</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Calculating risk assessment...</p>
+        </div>
+
+        <div id="results" class="results hidden">
+            <div class="tabs">
+                <button class="tab active" onclick="switchTab(event, 'risk-results')">Risk Assessment</button>
+                <button class="tab" onclick="switchTab(event, 'recommended-tests')">Recommended Tests</button>
+                <button class="tab" onclick="switchTab(event, 'vitals-summary')">Vitals Summary</button>
+            </div>
+
+            <div id="risk-results" class="tab-content active">
+                <div id="risk-cards"></div>
+                
+                <div class="risk-card">
+                    <h3 class="risk-title">📊 Risk Score Comparison</h3>
+                    <div class="metrics-grid">
+                        <div class="metric">
+                            <div class="metric-value" id="fmf-score">0%</div>
+                            <div class="metric-label">FMF Score</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" id="nice-score">0%</div>
+                            <div class="metric-label">NICE (UK)</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" id="acog-score">0%</div>
+                            <div class="metric-label">ACOG</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" id="ml-score">0%</div>
+                            <div class="metric-label">ML Ensemble</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="risk-card">
+                    <h3 class="risk-title">📋 Clinical Interpretation</h3>
+                    <div id="clinical-notes"></div>
+                </div>
+            </div>
+
+            <div id="recommended-tests" class="tab-content">
+                <div class="risk-card">
+                    <h3 class="risk-title">🔬 Recommended Further Testing</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Priority</th>
+                                <th>Test Name</th>
+                                <th>Timeline</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tests-list"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="vitals-summary" class="tab-content">
+                <div class="risk-card">
+                    <h3 class="risk-title">📈 Vital Signs Summary</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Parameter</th>
+                                <th>Value</th>
+                                <th>Normal Range</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="vitals-list"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button class="btn-secondary" onclick="printReport()">🖨️ Print Report</button>
+                <button class="btn-secondary" onclick="downloadReport()">📥 Download PDF</button>
+                <button class="btn-secondary" onclick="resetForm()">🔄 Reset Form</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PrediCare - Preeclampsia Risk Assessment Tool</p>
+        <p>For educational and clinical decision support purposes only</p>
+    </footer>
+
+    <script>
+        // Set today's date as default
+        document.getElementById('visit_date').valueAsDate = new Date();
+
+        function calculateRisk() {
+            // Get form values
+            const data = {
+                age: document.getElementById('age').value,
+                ga_weeks: document.getElementById('ga_weeks').value,
+                sbp: document.getElementById('sbp').value,
+                dbp: document.getElementById('dbp').value,
+                hr: document.getElementById('hr').value,
+                platelet_count: document.getElementById('platelet_count').value,
+                creatinine: document.getElementById('creatinine').value,
+                ast: document.getElementById('ast').value,
+                alt: document.getElementById('alt').value,
+                protein_urine: document.getElementById('protein_urine').value,
+            };
+
+            // Show loading
+            document.getElementById('loading').classList.remove('hidden');
+            document.getElementById('results').classList.add('hidden');
+
+            // Send to backend
+            fetch('/api/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    displayResults(result);
+                    getSuggestedTests(result.risks.Composite);
+                } else {
+                    alert('Error: ' + result.error);
+                }
+                document.getElementById('loading').classList.add('hidden');
+                document.getElementById('results').classList.remove('hidden');
+            })
+            .catch(error => {
+                alert('Error calculating risk: ' + error);
+                document.getElementById('loading').classList.add('hidden');
+            });
+        }
+
+        function displayResults(result) {
+            const risks = result.risks;
+            const severity = result.severity;
+            
+            // Update risk cards
+            const riskCardsHtml = `
+                <div class="risk-card ${severity}">
+                    <h2 class="risk-title">⚠️ Composite Risk Score</h2>
+                    <div class="risk-value">${risks.Composite.toFixed(1)}%</div>
+                    <div class="risk-description">${result.risk_category}</div>
+                </div>
+            `;
+            
+            document.getElementById('risk-cards').innerHTML = riskCardsHtml;
+            
+            // Update metric scores
+            document.getElementById('fmf-score').textContent = risks.FMF.toFixed(1) + '%';
+            document.getElementById('nice-score').textContent = risks.NICE.toFixed(1) + '%';
+            document.getElementById('acog-score').textContent = risks.ACOG.toFixed(1) + '%';
+            document.getElementById('ml-score').textContent = risks.ML.toFixed(1) + '%';
+
+            // Update vitals summary
+            updateVitalsSummary(result.parameters, result.map);
+
+            // Clinical notes
+            const clinicalNotes = `
+                <div class="alert alert-${severity === 'severe' ? 'danger' : severity === 'moderate' ? 'warning' : 'success'}">
+                    <p><strong>Risk Category:</strong> ${result.risk_category}</p>
+                    <p><strong>MAP:</strong> ${result.map.toFixed(1)} mmHg</p>
+                </div>
+            `;
+            document.getElementById('clinical-notes').innerHTML = clinicalNotes;
+        }
+
+        function getSuggestedTests(riskScore) {
+            fetch('/api/suggested-tests', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ risk_score: riskScore })
+            })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    displayTests(result.tests);
+                }
+            });
+        }
+
+        function displayTests(tests) {
+            let html = '';
+            tests.forEach(test => {
+                const priorityClass = test.priority === 'URGENT' ? 'danger' : 
+                                     test.priority === 'HIGH' ? 'warning' : 'info';
+                html += `
+                    <tr>
+                        <td><span class="alert alert-${priorityClass}" style="padding: 0.3rem 0.6rem; font-size: 0.8rem;">${test.priority}</span></td>
+                        <td>${test.test}</td>
+                        <td>${test.timeline}</td>
+                    </tr>
+                `;
+            });
+            document.getElementById('tests-list').innerHTML = html;
+        }
+
+        function updateVitalsSummary(params, map) {
+            const vitals = [
+                { param: 'Systolic BP', value: params.sbp, normal: '<140 mmHg' },
+                { param: 'Diastolic BP', value: params.dbp, normal: '<90 mmHg' },
+                { param: 'MAP', value: map.toFixed(1), normal: '<100 mmHg' },
+                { param: 'Heart Rate', value: params.hr, normal: '60-100 bpm' },
+                { param: 'Platelet Count', value: params.platelet_count, normal: '150-400 K/μL' },
+                { param: 'Creatinine', value: params.creatinine.toFixed(2), normal: '<0.9 mg/dL' },
+                { param: 'Proteinuria', value: params.protein_urine.toFixed(1), normal: '<0.3 g/24h' },
+            ];
+
+            let html = '';
+            vitals.forEach(vital => {
+                html += `
+                    <tr>
+                        <td>${vital.param}</td>
+                        <td><strong>${vital.value}</strong></td>
+                        <td>${vital.normal}</td>
+                        <td>✓</td>
+                    </tr>
+                `;
+            });
+            document.getElementById('vitals-list').innerHTML = html;
+        }
+
+        function switchTab(event, tabName) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+
+            // Remove active from all buttons
+            document.querySelectorAll('.tab').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Show selected tab
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        function printReport() {
+            window.print();
+        }
+
+        function downloadReport() {
+            alert('PDF download feature coming soon');
+        }
+
+        function resetForm() {
+            document.querySelectorAll('input[type="number"]').forEach(input => {
+                input.value = input.defaultValue;
+            });
+            document.getElementById('results').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>

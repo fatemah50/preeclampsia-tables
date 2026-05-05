@@ -38,7 +38,7 @@ from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_RIGHT
 # STREAMLIT PAGE CONFIG & STYLING
 # ============================================================================
 st.set_page_config(
-    page_title="PrediCare: Preeclampsia Risk Predictor v3.0",
+    page_title="PrediCare: Preeclampsia Risk Predictor",
     page_icon="🏥",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -48,32 +48,32 @@ st.markdown("""
 <style>
     * { box-sizing: border-box; }
     :root {
-        --cyan: #00d4ff;
-        --red-alert: #ff4757;
-        --amber: #ffa502;
-        --green-ok: #2ed573;
-        --bg-deep: #060b14;
-        --bg-panel: #0a1628;
-        --bg-card: #0d1f35;
-        --border: rgba(0,212,255,0.18);
-        --text: #e8f4fd;
-        --text-muted: #6b8fa8;
+        --primary: #2563eb;
+        --success: #10b981;
+        --warning: #f59e0b;
+        --danger: #ef4444;
+        --bg-light: #f8fafc;
+        --bg-white: #ffffff;
+        --bg-card: #f1f5f9;
+        --border: #e2e8f0;
+        --text-dark: #1e293b;
+        --text-muted: #64748b;
     }
     
-    body { background-color: var(--bg-deep); color: var(--text); }
-    .stApp { background-color: var(--bg-deep); }
+    body { background-color: var(--bg-light); color: var(--text-dark); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif; }
+    .stApp { background-color: var(--bg-light); }
     
-    .alert-severe { background-color: rgba(255,71,87,0.1); border-left: 4px solid #ff4757; padding: 12px; border-radius: 4px; margin: 10px 0; }
-    .alert-moderate { background-color: rgba(255,165,2,0.1); border-left: 4px solid #ffa502; padding: 12px; border-radius: 4px; margin: 10px 0; }
-    .alert-low { background-color: rgba(46,213,115,0.1); border-left: 4px solid #2ed573; padding: 12px; border-radius: 4px; margin: 10px 0; }
-    .risk-card { background-color: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 8px 0; }
-    .metric-value { font-size: 32px; font-weight: bold; color: var(--amber); font-family: 'Courier New', monospace; }
+    .alert-severe { background-color: rgba(239,68,68,0.1); border-left: 4px solid #ef4444; padding: 12px; border-radius: 6px; margin: 10px 0; color: #991b1b; }
+    .alert-moderate { background-color: rgba(245,158,11,0.1); border-left: 4px solid #f59e0b; padding: 12px; border-radius: 6px; margin: 10px 0; color: #92400e; }
+    .alert-low { background-color: rgba(16,185,129,0.1); border-left: 4px solid #10b981; padding: 12px; border-radius: 6px; margin: 10px 0; color: #065f46; }
+    .risk-card { background-color: var(--bg-white); border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 8px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    .metric-value { font-size: 32px; font-weight: bold; color: var(--primary); font-family: 'Segoe UI', sans-serif; }
     
-    .comparison-table { background-color: var(--bg-card); padding: 12px; border-radius: 6px; margin: 8px 0; border: 1px solid var(--border); }
-    .ratio-badge { display: inline-block; padding: 6px 12px; border-radius: 4px; margin: 4px; font-size: 12px; font-weight: bold; }
-    .ratio-normal { background-color: rgba(46,213,115,0.2); color: #2ed573; border: 1px solid #2ed573; }
-    .ratio-concern { background-color: rgba(255,165,2,0.2); color: #ffa502; border: 1px solid #ffa502; }
-    .ratio-danger { background-color: rgba(255,71,87,0.2); color: #ff4757; border: 1px solid #ff4757; }
+    .comparison-table { background-color: var(--bg-white); padding: 12px; border-radius: 6px; margin: 8px 0; border: 1px solid var(--border); box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+    .ratio-badge { display: inline-block; padding: 6px 12px; border-radius: 4px; margin: 4px; font-size: 12px; font-weight: 600; }
+    .ratio-normal { background-color: rgba(16,185,129,0.15); color: #065f46; border: 1px solid #10b981; }
+    .ratio-concern { background-color: rgba(245,158,11,0.15); color: #92400e; border: 1px solid #f59e0b; }
+    .ratio-danger { background-color: rgba(239,68,68,0.15); color: #991b1b; border: 1px solid #ef4444; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -800,8 +800,8 @@ def check_clinical_alerts(params):
 # ============================================================================
 # SIDEBAR
 # ============================================================================
-st.sidebar.markdown("## 🏥 PrediCare v3.0")
-st.sidebar.markdown("**AI-Enhanced PE Risk Predictor**")
+st.sidebar.markdown("<h2 style='color: #2563eb;'>🏥 PrediCare</h2>", unsafe_allow_html=True)
+st.sidebar.markdown("<p style='color: #64748b; font-size: 14px;'>AI-Enhanced PE Risk Predictor</p>", unsafe_allow_html=True)
 st.sidebar.markdown("---")
 
 st.sidebar.markdown("### 📄 DOCUMENT UPLOAD (TOP PRIORITY)")

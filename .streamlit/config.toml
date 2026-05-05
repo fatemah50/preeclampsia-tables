@@ -1,0 +1,22 @@
+[server]
+# Allow connections from external browsers
+headless = true
+port = 8501
+# Allow remote connections
+address = "0.0.0.0"
+
+[client]
+# Show error details
+showErrorDetails = true
+showStderr = true
+
+[theme]
+# Use light theme for website appearance
+primaryColor = "#2563eb"
+backgroundColor = "#f8fafc"
+secondaryBackgroundColor = "#f1f5f9"
+textColor = "#1e293b"
+font = "sans serif"
+
+[logger]
+level = "info"
