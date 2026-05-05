@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+xgboost>=2.0.0
+matplotlib
+seaborn
+joblib
+streamlit
+scipy==1.13.1
+plotly
+pillow
+reportlab

@@ -4,10 +4,25 @@ import numpy as np
 import json
 import os
 from datetime import datetime, timedelta
-import joblib
+try:
+    import joblib
+except ImportError as exc:
+    try:
+        from sklearn.externals import joblib
+    except ImportError:
+        raise ImportError(
+            "The 'joblib' package is required by app.py. "
+            "Install it with 'pip install joblib' or activate the correct virtual environment."
+        ) from exc
 from pathlib import Path
-import plotly.graph_objects as go
-import plotly.express as px
+try:
+    import plotly.graph_objects as go
+    import plotly.express as px
+except ImportError as exc:
+    raise ImportError(
+        "The 'plotly' package is required by app.py. "
+        "Install it with 'pip install plotly' or ensure it's in requirements.txt."
+    ) from exc
 from PIL import Image
 import io
 import re
