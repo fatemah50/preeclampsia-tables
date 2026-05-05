@@ -197,7 +197,35 @@ A: Yes! Replace `data/synthetic_cohort.csv` with your CSV. Same columns needed.
 
 1. ✅ Phase 2 produces `data/train_set.csv` with 700 rows
 2. ✅ Phase 3&4 produces `models/xgboost_preeclampsia.pkl` with AUROC ≥0.75
-3. ✅ `reports/data_audit.txt` shows balanced outcomes across ethnicities
+---
+
+## 🌐 NOW: DEPLOY YOUR APP! 
+
+### ✅ Your app is ready to share! Choose one option below:
+
+#### Option 1: Run Locally (Windows)
+```bash
+deploy_streamlit.bat
+```
+Opens: http://localhost:8501
+
+#### Option 2: Streamlit Cloud (RECOMMENDED - FREE) ⭐
+1. Go to: https://share.streamlit.io
+2. Sign in with GitHub
+3. Deploy `app.py` from your repo
+4. **Instant public URL to share!**
+
+#### Option 3: Heroku or Other Cloud
+See `DEPLOYMENT_GUIDE.md` for detailed instructions
+
+### 📋 Deployment Checklist
+- [ ] App runs locally: `deploy_streamlit.bat`
+- [ ] Test at: http://localhost:8501
+- [ ] Models working (predictions generate correctly)
+- [ ] Ready to deploy to Streamlit Cloud
+- [ ] Share public URL with your team
+
+---
 4. ✅ `outputs/bias_report.csv` shows <5% AUC disparity between groups
 5. ✅ Streamlit app runs with working patient risk calculator
 

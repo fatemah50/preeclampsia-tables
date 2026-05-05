@@ -6,9 +6,8 @@ port = 8501
 address = "0.0.0.0"
 
 [client]
-# Show error details
-showErrorDetails = true
-showStderr = true
+# Client configuration
+# Note: showErrorDetails and showStderr are deprecated in newer Streamlit versions
 
 [theme]
 # Use light theme for website appearance
