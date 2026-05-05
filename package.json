@@ -1,0 +1,21 @@
+{
+  "name": "preeclampsia-risk-audit",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "generate-evidence": "node scripts/buildEvidence.js",
+    "dev": "npm run generate-evidence && vite",
+    "build": "npm run generate-evidence && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tesseract.js": "^5.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
+  }
+}

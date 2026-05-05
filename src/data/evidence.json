@@ -1,0 +1,2004 @@
+{
+  "generatedAt": "2026-05-04T22:35:15.566Z",
+  "sourceCount": 33,
+  "evidence": [
+    {
+      "filename": "table (10).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "CKD as risk factor",
+          "Value": "RR increased",
+          "Cross-reference with Age": "AMA: amplified risk",
+          "Cross-reference with BMI": "BMI: additive",
+          "Cross-reference with Parity": "Parity: affects progression",
+          "Source": "2",
+          "__rowText": "ckd as risk factor | rr increased | ama: amplified risk | bmi: additive | parity: affects progression | 2"
+        },
+        {
+          "Parameter": "Renal disease",
+          "Value": "Individual studies show increased PE risk",
+          "Cross-reference with Age": "Age: baseline",
+          "Cross-reference with BMI": "BMI: unknown",
+          "Cross-reference with Parity": "Nulliparity: baseline",
+          "Source": "2",
+          "__rowText": "renal disease | individual studies show increased pe risk | age: baseline | bmi: unknown | nulliparity: baseline | 2"
+        }
+      ]
+    },
+    {
+      "filename": "table (11).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "Autoimmune disease",
+          "Value": "RR increased",
+          "Cross-reference with Age": "AMA: amplified",
+          "Cross-reference with BMI": "BMI: unknown",
+          "Cross-reference with Parity": "Nulliparity: baseline",
+          "Source": "2",
+          "__rowText": "autoimmune disease | rr increased | ama: amplified | bmi: unknown | nulliparity: baseline | 2"
+        },
+        {
+          "Parameter": "SLE with antiphospholipid antibodies",
+          "Value": "Highest PE rate",
+          "Cross-reference with Age": "Age: baseline",
+          "Cross-reference with BMI": "BMI: unknown",
+          "Cross-reference with Parity": "Parity: not specified",
+          "Source": "10",
+          "__rowText": "sle with antiphospholipid antibodies | highest pe rate | age: baseline | bmi: unknown | parity: not specified | 10"
+        }
+      ]
+    },
+    {
+      "filename": "table (12).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "PCOS OR for GDM",
+          "Value": "2.33 (95% CI 1.72-3.17)",
+          "Cross-reference with Age": "Age ≥ 25: OR 2.17; combined",
+          "Cross-reference with BMI": "BMI: obesity common in PCOS",
+          "Cross-reference with Parity": "Nulliparity: baseline",
+          "Source": "6",
+          "__rowText": "pcos or for gdm | 2.33 (95% ci 1.72-3.17) | age ≥ 25: or 2.17; combined | bmi: obesity common in pcos | nulliparity: baseline | 6"
+        },
+        {
+          "Parameter": "PCOS as risk factor",
+          "Value": "RR increased",
+          "Cross-reference with Age": "AMA: amplified",
+          "Cross-reference with BMI": "BMI > 30: common comorbidity",
+          "Cross-reference with Parity": "Nulliparity: baseline",
+          "Source": "2",
+          "__rowText": "pcos as risk factor | rr increased | ama: amplified | bmi > 30: common comorbidity | nulliparity: baseline | 2"
+        }
+      ]
+    },
+    {
+      "filename": "table (13).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "Dyslipidemia",
+          "Value": "Risk factor for PE",
+          "Cross-reference with Age": "AMA: accelerates CVD risk",
+          "Cross-reference with BMI": "BMI: strongly associated",
+          "Cross-reference with Parity": "Parity: unclear",
+          "Source": "2",
+          "__rowText": "dyslipidemia | risk factor for pe | ama: accelerates cvd risk | bmi: strongly associated | parity: unclear | 2"
+        },
+        {
+          "Parameter": "GMP associated dysglycemia",
+          "Value": "Not significantly increased after adjustment",
+          "Cross-reference with Age": "Age: confounder",
+          "Cross-reference with BMI": "BMI: main factor",
+          "Cross-reference with Parity": "Parity: not significant",
+          "Source": "22",
+          "__rowText": "gmp associated dysglycemia | not significantly increased after adjustment | age: confounder | bmi: main factor | parity: not significant | 22"
+        }
+      ]
+    },
+    {
+      "filename": "table (14).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "Pooled rate of PE",
+          "Value": "6.2% (95% CI 4.7-7.9%)",
+          "Cross-reference with Age": "AMA: common indication for ART",
+          "Cross-reference with BMI": "BMI: affects outcomes",
+          "Cross-reference with Parity": "Nulliparity: common in ART",
+          "Source": "10",
+          "__rowText": "pooled rate of pe | 6.2% (95% ci 4.7-7.9%) | ama: common indication for art | bmi: affects outcomes | nulliparity: common in art | 10"
+        },
+        {
+          "Parameter": "Pooled RR for PE",
+          "Value": "1.8 (95% CI 1.6-2.1)",
+          "Cross-reference with Age": "Age: major confounder",
+          "Cross-reference with BMI": "BMI: unknown",
+          "Cross-reference with Parity": "Parity: not specified",
+          "Source": "10",
+          "__rowText": "pooled rr for pe | 1.8 (95% ci 1.6-2.1) | age: major confounder | bmi: unknown | parity: not specified | 10"
+        },
+        {
+          "Parameter": "ART in twin pregnancies",
+          "Value": "\"Protective\" against perinatal mortality (specialist care effect)",
+          "Cross-reference with Age": "AMA: increased risk despite ART",
+          "Cross-reference with BMI": "BMI: effect attenuated vs singletons",
+          "Cross-reference with Parity": "Parity: not specified",
+          "Source": "8",
+          "__rowText": "art in twin pregnancies | \"protective\" against perinatal mortality (specialist care effect) | ama: increased risk despite art | bmi: effect attenuated vs singletons | parity: not specified | 8"
+        }
+      ]
+    },
+    {
+      "filename": "table (15).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "Twin pregnancy RR for PE",
+          "Value": "2.93 (95% CI 2.04-4.21)",
+          "Cross-reference with Age": "AMA: higher baseline risk",
+          "Cross-reference with BMI": "BMI: effect attenuated vs singletons",
+          "Cross-reference with Parity": "Nulliparity: baseline",
+          "Source": "2",
+          "__rowText": "twin pregnancy rr for pe | 2.93 (95% ci 2.04-4.21) | ama: higher baseline risk | bmi: effect attenuated vs singletons | nulliparity: baseline | 2"
+        },
+        {
+          "Parameter": "Monochorionic twins",
+          "Value": "Increased stillbirth, NICU, preterm delivery",
+          "Cross-reference with Age": "AMA: additive risk",
+          "Cross-reference with BMI": "BMI: less impact",
+          "Cross-reference with Parity": "Parity: less impact",
+          "Source": "8",
+          "__rowText": "monochorionic twins | increased stillbirth, nicu, preterm delivery | ama: additive risk | bmi: less impact | parity: less impact | 8"
+        },
+        {
+          "Parameter": "sFlt-1/PlGF in twins",
+          "Value": "Different cutoffs needed vs singletons",
+          "Cross-reference with Age": "AMA: affects levels",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: affects levels",
+          "Source": "23",
+          "__rowText": "sflt-1/plgf in twins | different cutoffs needed vs singletons | ama: affects levels | bmi: affects levels | parity: affects levels | 23"
+        }
+      ]
+    },
+    {
+      "filename": "table (16).csv",
+      "headers": [
+        "Symptom",
+        "Clinical Significance",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Symptom": "Headache",
+          "Clinical Significance": "Warning sign of severe PE/eclampsia",
+          "Cross-reference with Age": "AMA: same presentation",
+          "Cross-reference with BMI": "BMI: same",
+          "Cross-reference with Parity": "Nulliparity: same",
+          "Source": "1",
+          "__rowText": "headache | warning sign of severe pe/eclampsia | ama: same presentation | bmi: same | nulliparity: same | 1"
+        },
+        {
+          "Symptom": "Hyperreflexia",
+          "Clinical Significance": "Sign of neurological involvement in PE",
+          "Cross-reference with Age": "AMA: same",
+          "Cross-reference with BMI": "BMI: same",
+          "Cross-reference with Parity": "Parity: same",
+          "Source": "1",
+          "__rowText": "hyperreflexia | sign of neurological involvement in pe | ama: same | bmi: same | parity: same | 1"
+        },
+        {
+          "Symptom": "Epigastric/RUQ pain",
+          "Clinical Significance": "Hepatic involvement/HELLP syndrome",
+          "Cross-reference with Age": "AMA: same",
+          "Cross-reference with BMI": "BMI: same",
+          "Cross-reference with Parity": "Parity: same",
+          "Source": "1",
+          "__rowText": "epigastric/ruq pain | hepatic involvement/hellp syndrome | ama: same | bmi: same | parity: same | 1"
+        }
+      ]
+    },
+    {
+      "filename": "table (17).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "Thrombocytopenia (HELLP)",
+          "Value": "Platelet < 100,000/μL",
+          "Cross-reference with Age": "AMA: same",
+          "Cross-reference with BMI": "BMI: same",
+          "Cross-reference with Parity": "Parity: same",
+          "Source": "1",
+          "__rowText": "thrombocytopenia (hellp) | platelet < 100,000/μl | ama: same | bmi: same | parity: same | 1"
+        },
+        {
+          "Parameter": "Impaired liver function",
+          "Value": "AST/ALT elevated",
+          "Cross-reference with Age": "AMA: same",
+          "Cross-reference with BMI": "BMI: same",
+          "Cross-reference with Parity": "Parity: same",
+          "Source": "1",
+          "__rowText": "impaired liver function | ast/alt elevated | ama: same | bmi: same | parity: same | 1"
+        },
+        {
+          "Parameter": "ALT normal range",
+          "Value": "5-35 U/L",
+          "Cross-reference with Age": "Age: baseline",
+          "Cross-reference with BMI": "BMI: NAFLD risk",
+          "Cross-reference with Parity": "Parity: baseline",
+          "Source": "1",
+          "__rowText": "alt normal range | 5-35 u/l | age: baseline | bmi: nafld risk | parity: baseline | 1"
+        },
+        {
+          "Parameter": "AST normal range",
+          "Value": "5-40 U/L",
+          "Cross-reference with Age": "Age: baseline",
+          "Cross-reference with BMI": "BMI: NAFLD risk",
+          "Cross-reference with Parity": "Parity: baseline",
+          "Source": "1",
+          "__rowText": "ast normal range | 5-40 u/l | age: baseline | bmi: nafld risk | parity: baseline | 1"
+        },
+        {
+          "Parameter": "ALP normal range (adult)",
+          "Value": "44-147 U/L",
+          "Cross-reference with Age": "Age: increases with age",
+          "Cross-reference with BMI": "BMI: unclear",
+          "Cross-reference with Parity": "Parity: baseline",
+          "Source": "1",
+          "__rowText": "alp normal range (adult) | 44-147 u/l | age: increases with age | bmi: unclear | parity: baseline | 1"
+        }
+      ]
+    },
+    {
+      "filename": "table (18).csv",
+      "headers": [
+        "Parameter",
+        "Cutoff Value",
+        "Clinical Use",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "sFlt-1/PlGF ratio ≤ 38",
+          "Cutoff Value": "Rule-out PE within 1 week",
+          "Clinical Use": "NPV 99.3% (95% CI 97.9-99.9%)",
+          "Cross-reference with Age": "AMA: same cutoffs",
+          "Cross-reference with BMI": "BMI affects absolute levels but ratio interpretation similar",
+          "Cross-reference with Parity": "Multiparity: lower ratios",
+          "Source": "24",
+          "__rowText": "sflt-1/plgf ratio ≤ 38 | rule-out pe within 1 week | npv 99.3% (95% ci 97.9-99.9%) | ama: same cutoffs | bmi affects absolute levels but ratio interpretation similar | multiparity: lower ratios | 24"
+        },
+        {
+          "Parameter": "sFlt-1/PlGF ratio ≤ 38",
+          "Cutoff Value": "Rule-out PE within 2 weeks",
+          "Clinical Use": "NPV 97.9%",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: multiparous lower",
+          "Source": "25",
+          "__rowText": "sflt-1/plgf ratio ≤ 38 | rule-out pe within 2 weeks | npv 97.9% | ama: validated | bmi: affects levels | parity: multiparous lower | 25"
+        },
+        {
+          "Parameter": "sFlt-1/PlGF ratio ≤ 38",
+          "Cutoff Value": "Rule-out PE within 3 weeks",
+          "Clinical Use": "NPV 95.7%",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: multiparous lower",
+          "Source": "25",
+          "__rowText": "sflt-1/plgf ratio ≤ 38 | rule-out pe within 3 weeks | npv 95.7% | ama: validated | bmi: affects levels | parity: multiparous lower | 25"
+        },
+        {
+          "Parameter": "sFlt-1/PlGF ratio ≤ 38",
+          "Cutoff Value": "Rule-out PE within 4 weeks",
+          "Clinical Use": "NPV 94.3%; Sensitivity 66.2%; Specificity 83.1%",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: multiparous lower",
+          "Source": "25",
+          "__rowText": "sflt-1/plgf ratio ≤ 38 | rule-out pe within 4 weeks | npv 94.3%; sensitivity 66.2%; specificity 83.1% | ama: validated | bmi: affects levels | parity: multiparous lower | 25"
+        },
+        {
+          "Parameter": "sFlt-1/PlGF ratio < 21.5",
+          "Cutoff Value": "Rule-out PE (Chinese population)",
+          "Clinical Use": "Diagnostic cutoff",
+          "Cross-reference with Age": "AMA: same",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: multiparous lower",
+          "Source": "26",
+          "__rowText": "sflt-1/plgf ratio < 21.5 | rule-out pe (chinese population) | diagnostic cutoff | ama: same | bmi: affects levels | parity: multiparous lower | 26"
+        },
+        {
+          "Parameter": "sFlt-1/PlGF ratio > 97.2",
+          "Cutoff Value": "Confirm PE diagnosis (Chinese)",
+          "Clinical Use": "Diagnostic",
+          "Cross-reference with Age": "AMA: same",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: multiparous lower",
+          "Source": "26",
+          "__rowText": "sflt-1/plgf ratio > 97.2 | confirm pe diagnosis (chinese) | diagnostic | ama: same | bmi: affects levels | parity: multiparous lower | 26"
+        },
+        {
+          "Parameter": "sFlt-1/PlGF ratio ≥ 85",
+          "Cutoff Value": "Rule-in PE within 4 weeks",
+          "Clinical Use": "Validation study",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: multiparous lower",
+          "Source": "27",
+          "__rowText": "sflt-1/plgf ratio ≥ 85 | rule-in pe within 4 weeks | validation study | ama: validated | bmi: affects levels | parity: multiparous lower | 27"
+        },
+        {
+          "Parameter": "Pooled sensitivity",
+          "Cutoff Value": "80% (95% CI 0.68-0.88)",
+          "Clinical Use": "Meta-analysis 15 studies",
+          "Cross-reference with Age": "AMA: consistent",
+          "Cross-reference with BMI": "BMI: consistent",
+          "Cross-reference with Parity": "Parity: consistent",
+          "Source": "28",
+          "__rowText": "pooled sensitivity | 80% (95% ci 0.68-0.88) | meta-analysis 15 studies | ama: consistent | bmi: consistent | parity: consistent | 28"
+        },
+        {
+          "Parameter": "Pooled specificity",
+          "Cutoff Value": "92% (95% CI 0.87-0.96)",
+          "Clinical Use": "Meta-analysis 15 studies",
+          "Cross-reference with Age": "AMA: consistent",
+          "Cross-reference with BMI": "BMI: consistent",
+          "Cross-reference with Parity": "Parity: consistent",
+          "Source": "28",
+          "__rowText": "pooled specificity | 92% (95% ci 0.87-0.96) | meta-analysis 15 studies | ama: consistent | bmi: consistent | parity: consistent | 28"
+        },
+        {
+          "Parameter": "Positive likelihood ratio",
+          "Cutoff Value": "10.5 (95% CI 6.2-18.0)",
+          "Clinical Use": "High accuracy",
+          "Cross-reference with Age": "AMA: consistent",
+          "Cross-reference with BMI": "BMI: consistent",
+          "Cross-reference with Parity": "Parity: consistent",
+          "Source": "28",
+          "__rowText": "positive likelihood ratio | 10.5 (95% ci 6.2-18.0) | high accuracy | ama: consistent | bmi: consistent | parity: consistent | 28"
+        },
+        {
+          "Parameter": "Negative likelihood ratio",
+          "Cutoff Value": "0.22 (95% CI 0.13-0.35)",
+          "Clinical Use": "High accuracy",
+          "Cross-reference with Age": "AMA: consistent",
+          "Cross-reference with BMI": "BMI: consistent",
+          "Cross-reference with Parity": "Parity: consistent",
+          "Source": "28",
+          "__rowText": "negative likelihood ratio | 0.22 (95% ci 0.13-0.35) | high accuracy | ama: consistent | bmi: consistent | parity: consistent | 28"
+        },
+        {
+          "Parameter": "Higher sFlt-1/PlGF ratio",
+          "Cutoff Value": "PE delivering within 7 days",
+          "Clinical Use": "Higher ratio = shorter interval",
+          "Cross-reference with Age": "AMA: same",
+          "Cross-reference with BMI": "BMI: affects ratio",
+          "Cross-reference with Parity": "Parity: multiparous lower",
+          "Source": "26",
+          "__rowText": "higher sflt-1/plgf ratio | pe delivering within 7 days | higher ratio = shorter interval | ama: same | bmi: affects ratio | parity: multiparous lower | 26"
+        },
+        {
+          "Parameter": "Δ ratio at 2 weeks",
+          "Cutoff Value": "PE: 31.22; No PE: 1.45 (P < 0.001)",
+          "Clinical Use": "Progression marker",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: multiparous lower",
+          "Source": "25",
+          "__rowText": "δ ratio at 2 weeks | pe: 31.22; no pe: 1.45 (p < 0.001) | progression marker | ama: validated | bmi: affects levels | parity: multiparous lower | 25"
+        },
+        {
+          "Parameter": "Δ ratio at 3 weeks",
+          "Cutoff Value": "PE: 48.97; No PE: 2.39 (P < 0.001)",
+          "Clinical Use": "Progression marker",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: multiparous lower",
+          "Source": "25",
+          "__rowText": "δ ratio at 3 weeks | pe: 48.97; no pe: 2.39 (p < 0.001) | progression marker | ama: validated | bmi: affects levels | parity: multiparous lower | 25"
+        }
+      ]
+    },
+    {
+      "filename": "table (19).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Clinical Use",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "PlGF 80-120 pg/mL",
+          "Value": "Optimal predictive threshold",
+          "Clinical Use": "OR 25 (7-88); Sensitivity 78%; Specificity 88%",
+          "Cross-reference with Age": "AMA: test after 14 weeks",
+          "Cross-reference with BMI": "BMI: affects absolute levels",
+          "Cross-reference with Parity": "Parity: multiparous higher",
+          "Source": "29",
+          "__rowText": "plgf 80-120 pg/ml | optimal predictive threshold | or 25 (7-88); sensitivity 78%; specificity 88% | ama: test after 14 weeks | bmi: affects absolute levels | parity: multiparous higher | 29"
+        },
+        {
+          "Parameter": "PlGF after 14 weeks",
+          "Value": "Better prediction",
+          "Clinical Use": "OR 10 (7-15)",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: validated",
+          "Cross-reference with Parity": "Parity: multiparous higher",
+          "Source": "29",
+          "__rowText": "plgf after 14 weeks | better prediction | or 10 (7-15) | ama: validated | bmi: validated | parity: multiparous higher | 29"
+        },
+        {
+          "Parameter": "Early onset PE prediction",
+          "Value": "PlGF more accurate",
+          "Clinical Use": "OR 18 (9-37)",
+          "Cross-reference with Age": "AMA: higher risk early onset",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: nulliparity higher risk",
+          "Source": "29",
+          "__rowText": "early onset pe prediction | plgf more accurate | or 18 (9-37) | ama: higher risk early onset | bmi: affects levels | parity: nulliparity higher risk | 29"
+        },
+        {
+          "Parameter": "Lower PlGF at 26 weeks",
+          "Value": "DM Type 1 pattern",
+          "Clinical Use": "Predictor",
+          "Cross-reference with Age": "AMA: same",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: multiparous higher",
+          "Source": "1",
+          "__rowText": "lower plgf at 26 weeks | dm type 1 pattern | predictor | ama: same | bmi: affects levels | parity: multiparous higher | 1"
+        },
+        {
+          "Parameter": "Normal PlGF (non-DM)",
+          "Value": "120-423 pg/mL",
+          "Clinical Use": "Reference",
+          "Cross-reference with Age": "Age: baseline",
+          "Cross-reference with BMI": "BMI: baseline",
+          "Cross-reference with Parity": "Parity: baseline",
+          "Source": "1",
+          "__rowText": "normal plgf (non-dm) | 120-423 pg/ml | reference | age: baseline | bmi: baseline | parity: baseline | 1"
+        },
+        {
+          "Parameter": "DM Type 1 PlGF at 26 weeks",
+          "Value": "231 pg/mL",
+          "Clinical Use": "Lower than normal",
+          "Cross-reference with Age": "Age: same",
+          "Cross-reference with BMI": "BMI: same",
+          "Cross-reference with Parity": "Parity: same",
+          "Source": "1",
+          "__rowText": "dm type 1 plgf at 26 weeks | 231 pg/ml | lower than normal | age: same | bmi: same | parity: same | 1"
+        },
+        {
+          "Parameter": "Twin pregnancy PlGF",
+          "Value": "Predictive value AUC 0.874",
+          "Clinical Use": "Adverse outcome prediction",
+          "Cross-reference with Age": "AMA: independent factor",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: affects levels",
+          "Source": "30",
+          "__rowText": "twin pregnancy plgf | predictive value auc 0.874 | adverse outcome prediction | ama: independent factor | bmi: affects levels | parity: affects levels | 30"
+        },
+        {
+          "Parameter": "PlGF combined with clinical factors",
+          "Value": "First trimester screening",
+          "Clinical Use": "More accurate than clinical factors alone",
+          "Cross-reference with Age": "AMA: included",
+          "Cross-reference with BMI": "BMI: included",
+          "Cross-reference with Parity": "Parity: included",
+          "Source": "23",
+          "__rowText": "plgf combined with clinical factors | first trimester screening | more accurate than clinical factors alone | ama: included | bmi: included | parity: included | 23"
+        }
+      ]
+    },
+    {
+      "filename": "table (2).csv",
+      "headers": [
+        "Age Group",
+        "Risk Level",
+        "Relative Risk (RR) / Odds Ratio (OR)",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Cross-reference with Family History",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Age Group": "< 20 years",
+          "Risk Level": "Low",
+          "Relative Risk (RR) / Odds Ratio (OR)": "Reference",
+          "Cross-reference with BMI": "BMI < 25: RR 1.0 (underweight association with LBW, not PE)",
+          "Cross-reference with Parity": "Nulliparity: Standard risk",
+          "Cross-reference with Family History": "No FH: baseline",
+          "Source": "2",
+          "__rowText": "< 20 years | low | reference | bmi < 25: rr 1.0 (underweight association with lbw, not pe) | nulliparity: standard risk | no fh: baseline | 2"
+        },
+        {
+          "Age Group": "20-34 years",
+          "Risk Level": "Baseline",
+          "Relative Risk (RR) / Odds Ratio (OR)": "1.0 (Reference)",
+          "Cross-reference with BMI": "Normal BMI 18.5-24.9: baseline",
+          "Cross-reference with Parity": "Multiparity: protective",
+          "Cross-reference with Family History": "No FH: baseline",
+          "Source": "3",
+          "__rowText": "20-34 years | baseline | 1.0 (reference) | normal bmi 18.5-24.9: baseline | multiparity: protective | no fh: baseline | 3"
+        },
+        {
+          "Age Group": "35-39 years",
+          "Risk Level": "Moderate increase",
+          "Relative Risk (RR) / Odds Ratio (OR)": "RR 1.3-1.5",
+          "Cross-reference with BMI": "BMI 25-29.9: OR 2.13 for GDM",
+          "Cross-reference with Parity": "Multiparity ≥2: OR 1.37 for GDM",
+          "Cross-reference with Family History": "FH diabetes: RR 1.68",
+          "Source": "4",
+          "__rowText": "35-39 years | moderate increase | rr 1.3-1.5 | bmi 25-29.9: or 2.13 for gdm | multiparity ≥2: or 1.37 for gdm | fh diabetes: rr 1.68 | 4"
+        },
+        {
+          "Age Group": "≥ 35 years (Advanced Maternal Age)",
+          "Risk Level": "High",
+          "Relative Risk (RR) / Odds Ratio (OR)": "RR 1.96 (95% CI 1.34-2.87) for multiparous",
+          "Cross-reference with BMI": "BMI > 30: OR 2.90 for GDM",
+          "Cross-reference with Parity": "Nulliparity: OR 2.91",
+          "Cross-reference with Family History": "FH hypertension: OR 2.06",
+          "Source": "2",
+          "__rowText": "≥ 35 years (advanced maternal age) | high | rr 1.96 (95% ci 1.34-2.87) for multiparous | bmi > 30: or 2.90 for gdm | nulliparity: or 2.91 | fh hypertension: or 2.06 | 2"
+        },
+        {
+          "Age Group": "≥ 40 years",
+          "Risk Level": "Very High",
+          "Relative Risk (RR) / Odds Ratio (OR)": "RR 1.96 for multiparous women",
+          "Cross-reference with BMI": "BMI > 30: OR 3.61 for preeclampsia",
+          "Cross-reference with Parity": "Nulliparity + AMA: highest risk",
+          "Cross-reference with Family History": "FH preeclampsia: OR 2.90",
+          "Source": "2",
+          "__rowText": "≥ 40 years | very high | rr 1.96 for multiparous women | bmi > 30: or 3.61 for preeclampsia | nulliparity + ama: highest risk | fh preeclampsia: or 2.90 | 2"
+        },
+        {
+          "Age Group": "AMA (≥35) + GDM",
+          "Risk Level": "Highest",
+          "Relative Risk (RR) / Odds Ratio (OR)": "AUC 0.821 for adverse outcomes",
+          "Cross-reference with BMI": "Pre-pregnancy BMI significant predictor",
+          "Cross-reference with Parity": "Primipara: independent risk factor",
+          "Cross-reference with Family History": "FH diabetes: OR 2.77",
+          "Source": "5",
+          "__rowText": "ama (≥35) + gdm | highest | auc 0.821 for adverse outcomes | pre-pregnancy bmi significant predictor | primipara: independent risk factor | fh diabetes: or 2.77 | 5"
+        }
+      ]
+    },
+    {
+      "filename": "table (20).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Clinical Use",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "Normal sFlt-1 (non-DM)",
+          "Value": "1,108-3,393 pg/mL",
+          "Clinical Use": "Reference range",
+          "Cross-reference with Age": "Age: baseline",
+          "Cross-reference with BMI": "BMI: baseline",
+          "Cross-reference with Parity": "Parity: baseline",
+          "Source": "1",
+          "__rowText": "normal sflt-1 (non-dm) | 1,108-3,393 pg/ml | reference range | age: baseline | bmi: baseline | parity: baseline | 1"
+        },
+        {
+          "Parameter": "Higher sFlt-1 at 26 weeks",
+          "Value": "PE indicator",
+          "Clinical Use": "Higher ratio",
+          "Cross-reference with Age": "AMA: same pattern",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: multiparous lower",
+          "Source": "1",
+          "__rowText": "higher sflt-1 at 26 weeks | pe indicator | higher ratio | ama: same pattern | bmi: affects levels | parity: multiparous lower | 1"
+        },
+        {
+          "Parameter": "sFlt-1 affected by",
+          "Value": "Parity and BMI",
+          "Clinical Use": "Multiparous lower; BMI ≥ 25 lower",
+          "Cross-reference with Age": "Age: no direct effect",
+          "Cross-reference with BMI": "BMI ≥ 25: lower levels",
+          "Cross-reference with Parity": "Multiparity: lowers sFlt-1",
+          "Source": "13",
+          "__rowText": "sflt-1 affected by | parity and bmi | multiparous lower; bmi ≥ 25 lower | age: no direct effect | bmi ≥ 25: lower levels | multiparity: lowers sflt-1 | 13"
+        },
+        {
+          "Parameter": "Development cohort median",
+          "Value": "85 (IQR 44-164) for PE within 2 weeks",
+          "Clinical Use": "Predictor",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: affects levels",
+          "Source": "31",
+          "__rowText": "development cohort median | 85 (iqr 44-164) for pe within 2 weeks | predictor | ama: validated | bmi: affects levels | parity: affects levels | 31"
+        },
+        {
+          "Parameter": "No PE median",
+          "Value": "8 (IQR 3-35)",
+          "Clinical Use": "Reference",
+          "Cross-reference with Age": "AMA: baseline",
+          "Cross-reference with BMI": "BMI: baseline",
+          "Cross-reference with Parity": "Parity: baseline",
+          "Source": "31",
+          "__rowText": "no pe median | 8 (iqr 3-35) | reference | ama: baseline | bmi: baseline | parity: baseline | 31"
+        },
+        {
+          "Parameter": "AUC for PE prediction",
+          "Value": "0.87",
+          "Clinical Use": "Good discriminative ability",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: validated",
+          "Cross-reference with Parity": "Parity: validated",
+          "Source": "31",
+          "__rowText": "auc for pe prediction | 0.87 | good discriminative ability | ama: validated | bmi: validated | parity: validated | 31"
+        }
+      ]
+    },
+    {
+      "filename": "table (21).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Clinical Use",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "Normal sFlt-1 (non-DM)",
+          "Value": "1,108-3,393 pg/mL",
+          "Clinical Use": "Reference range",
+          "Cross-reference with Age": "Age: baseline",
+          "Cross-reference with BMI": "BMI: baseline",
+          "Cross-reference with Parity": "Parity: baseline",
+          "Source": "1",
+          "__rowText": "normal sflt-1 (non-dm) | 1,108-3,393 pg/ml | reference range | age: baseline | bmi: baseline | parity: baseline | 1"
+        },
+        {
+          "Parameter": "Higher sFlt-1 at 26 weeks",
+          "Value": "PE indicator",
+          "Clinical Use": "Higher ratio",
+          "Cross-reference with Age": "AMA: same pattern",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: multiparous lower",
+          "Source": "1",
+          "__rowText": "higher sflt-1 at 26 weeks | pe indicator | higher ratio | ama: same pattern | bmi: affects levels | parity: multiparous lower | 1"
+        },
+        {
+          "Parameter": "sFlt-1 affected by",
+          "Value": "Parity and BMI",
+          "Clinical Use": "Multiparous lower; BMI ≥ 25 lower",
+          "Cross-reference with Age": "Age: no direct effect",
+          "Cross-reference with BMI": "BMI ≥ 25: lower levels",
+          "Cross-reference with Parity": "Multiparity: lowers sFlt-1",
+          "Source": "13",
+          "__rowText": "sflt-1 affected by | parity and bmi | multiparous lower; bmi ≥ 25 lower | age: no direct effect | bmi ≥ 25: lower levels | multiparity: lowers sflt-1 | 13"
+        },
+        {
+          "Parameter": "Development cohort median",
+          "Value": "85 (IQR 44-164) for PE within 2 weeks",
+          "Clinical Use": "Predictor",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: affects levels",
+          "Source": "31",
+          "__rowText": "development cohort median | 85 (iqr 44-164) for pe within 2 weeks | predictor | ama: validated | bmi: affects levels | parity: affects levels | 31"
+        },
+        {
+          "Parameter": "No PE median",
+          "Value": "8 (IQR 3-35)",
+          "Clinical Use": "Reference",
+          "Cross-reference with Age": "AMA: baseline",
+          "Cross-reference with BMI": "BMI: baseline",
+          "Cross-reference with Parity": "Parity: baseline",
+          "Source": "31",
+          "__rowText": "no pe median | 8 (iqr 3-35) | reference | ama: baseline | bmi: baseline | parity: baseline | 31"
+        },
+        {
+          "Parameter": "AUC for PE prediction",
+          "Value": "0.87",
+          "Clinical Use": "Good discriminative ability",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: validated",
+          "Cross-reference with Parity": "Parity: validated",
+          "Source": "31",
+          "__rowText": "auc for pe prediction | 0.87 | good discriminative ability | ama: validated | bmi: validated | parity: validated | 31"
+        }
+      ]
+    },
+    {
+      "filename": "table (22).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Clinical Use",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "Normal sEng (non-DM)",
+          "Value": "844-1,630 pg/mL",
+          "Clinical Use": "Reference range",
+          "Cross-reference with Age": "Age: baseline",
+          "Cross-reference with BMI": "BMI: baseline",
+          "Cross-reference with Parity": "Parity: baseline",
+          "Source": "1",
+          "__rowText": "normal seng (non-dm) | 844-1,630 pg/ml | reference range | age: baseline | bmi: baseline | parity: baseline | 1"
+        },
+        {
+          "Parameter": "Higher sEng at 26 weeks",
+          "Value": "PE indicator",
+          "Clinical Use": "Higher = worse prognosis",
+          "Cross-reference with Age": "AMA: same pattern",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: multiparous lower",
+          "Source": "1",
+          "__rowText": "higher seng at 26 weeks | pe indicator | higher = worse prognosis | ama: same pattern | bmi: affects levels | parity: multiparous lower | 1"
+        },
+        {
+          "Parameter": "Ratio PlGF to sEng",
+          "Value": "LOWER ratio indicates risk",
+          "Clinical Use": "Combined marker",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: affects both",
+          "Cross-reference with Parity": "Parity: multiparous lower ratio",
+          "Source": "1",
+          "__rowText": "ratio plgf to seng | lower ratio indicates risk | combined marker | ama: validated | bmi: affects both | parity: multiparous lower ratio | 1"
+        }
+      ]
+    },
+    {
+      "filename": "table (23).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Clinical Use",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "Lower β-hCG",
+          "Value": "Associated with adverse outcomes",
+          "Clinical Use": "PE predictor",
+          "Cross-reference with Age": "AMA: same",
+          "Cross-reference with BMI": "BMI: unclear",
+          "Cross-reference with Parity": "Parity: unclear",
+          "Source": "1",
+          "__rowText": "lower β-hcg | associated with adverse outcomes | pe predictor | ama: same | bmi: unclear | parity: unclear | 1"
+        },
+        {
+          "Parameter": "Lower PAPP-A",
+          "Value": "Associated with PE",
+          "Clinical Use": "First trimester screening",
+          "Cross-reference with Age": "AMA: same",
+          "Cross-reference with BMI": "BMI: unclear",
+          "Cross-reference with Parity": "Parity: unclear",
+          "Source": "32",
+          "__rowText": "lower papp-a | associated with pe | first trimester screening | ama: same | bmi: unclear | parity: unclear | 32"
+        },
+        {
+          "Parameter": "Lower PAPP-A + uterine artery PI",
+          "Value": "Sensitivity 60-80%, Specificity > 80%",
+          "Clinical Use": "Combined first/second trimester",
+          "Cross-reference with Age": "AMA: included",
+          "Cross-reference with BMI": "BMI: included",
+          "Cross-reference with Parity": "Parity: included",
+          "Source": "32",
+          "__rowText": "lower papp-a + uterine artery pi | sensitivity 60-80%, specificity > 80% | combined first/second trimester | ama: included | bmi: included | parity: included | 32"
+        },
+        {
+          "Parameter": "β-HCG and PAPP-A in combinations",
+          "Value": "Better performance than single markers",
+          "Clinical Use": "Screening algorithms",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: validated",
+          "Cross-reference with Parity": "Parity: validated",
+          "Source": "32",
+          "__rowText": "β-hcg and papp-a in combinations | better performance than single markers | screening algorithms | ama: validated | bmi: validated | parity: validated | 32"
+        }
+      ]
+    },
+    {
+      "filename": "table (24).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Clinical Use",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "MAP first trimester",
+          "Value": "Elevated MAP predictor",
+          "Clinical Use": "PE risk stratification",
+          "Cross-reference with Age": "AMA: same",
+          "Cross-reference with BMI": "BMI: additive",
+          "Cross-reference with Parity": "Parity: baseline",
+          "Source": "1",
+          "__rowText": "map first trimester | elevated map predictor | pe risk stratification | ama: same | bmi: additive | parity: baseline | 1"
+        },
+        {
+          "Parameter": "Uterine artery PI (UtA-PI)",
+          "Value": "MoM values",
+          "Clinical Use": "First trimester screening",
+          "Cross-reference with Age": "AMA: same",
+          "Cross-reference with BMI": "BMI: unclear",
+          "Cross-reference with Parity": "Parity: unclear",
+          "Source": "1",
+          "__rowText": "uterine artery pi (uta-pi) | mom values | first trimester screening | ama: same | bmi: unclear | parity: unclear | 1"
+        },
+        {
+          "Parameter": "UtA-PI + biochemical markers",
+          "Value": "90% sensitivity, 90% specificity",
+          "Clinical Use": "High-risk populations",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: validated",
+          "Cross-reference with Parity": "Parity: severe PE only",
+          "Source": "32",
+          "__rowText": "uta-pi + biochemical markers | 90% sensitivity, 90% specificity | high-risk populations | ama: validated | bmi: validated | parity: severe pe only | 32"
+        }
+      ]
+    },
+    {
+      "filename": "table (25).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Clinical Use",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "MAP first trimester",
+          "Value": "Elevated MAP predictor",
+          "Clinical Use": "PE risk stratification",
+          "Cross-reference with Age": "AMA: same",
+          "Cross-reference with BMI": "BMI: additive",
+          "Cross-reference with Parity": "Parity: baseline",
+          "Source": "1",
+          "__rowText": "map first trimester | elevated map predictor | pe risk stratification | ama: same | bmi: additive | parity: baseline | 1"
+        },
+        {
+          "Parameter": "Uterine artery PI (UtA-PI)",
+          "Value": "MoM values",
+          "Clinical Use": "First trimester screening",
+          "Cross-reference with Age": "AMA: same",
+          "Cross-reference with BMI": "BMI: unclear",
+          "Cross-reference with Parity": "Parity: unclear",
+          "Source": "1",
+          "__rowText": "uterine artery pi (uta-pi) | mom values | first trimester screening | ama: same | bmi: unclear | parity: unclear | 1"
+        },
+        {
+          "Parameter": "UtA-PI + biochemical markers",
+          "Value": "90% sensitivity, 90% specificity",
+          "Clinical Use": "High-risk populations",
+          "Cross-reference with Age": "AMA: validated",
+          "Cross-reference with BMI": "BMI: validated",
+          "Cross-reference with Parity": "Parity: severe PE only",
+          "Source": "32",
+          "__rowText": "uta-pi + biochemical markers | 90% sensitivity, 90% specificity | high-risk populations | ama: validated | bmi: validated | parity: severe pe only | 32"
+        }
+      ]
+    },
+    {
+      "filename": "table (26).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Clinical Use",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "NGAL (Neutrophil Gelatinase-Associated Lipocalin)",
+          "Value": "< 43 pg/ml at 25-28 weeks",
+          "Clinical Use": "Kidney injury marker",
+          "Cross-reference with Age": "Age: unclear",
+          "Cross-reference with BMI": "BMI: unclear",
+          "Cross-reference with Parity": "Parity: unclear",
+          "Source": "1",
+          "__rowText": "ngal (neutrophil gelatinase-associated lipocalin) | < 43 pg/ml at 25-28 weeks | kidney injury marker | age: unclear | bmi: unclear | parity: unclear | 1"
+        },
+        {
+          "Parameter": "Obstructive Sleep Apnea (OSA)",
+          "Value": "Risk factor",
+          "Clinical Use": "PE association",
+          "Cross-reference with Age": "Age: older = more OSA",
+          "Cross-reference with BMI": "BMI: obesity = more OSA",
+          "Cross-reference with Parity": "Parity: unclear",
+          "Source": "1",
+          "__rowText": "obstructive sleep apnea (osa) | risk factor | pe association | age: older = more osa | bmi: obesity = more osa | parity: unclear | 1"
+        },
+        {
+          "Parameter": "Vitamin D deficiency (< 20 ng/ml)",
+          "Value": "OR 2.66 (95% CI 1.01-7.02) for GDM",
+          "Clinical Use": "GDM risk after BMI adjustment",
+          "Cross-reference with Age": "Age: not adjusted",
+          "Cross-reference with BMI": "BMI: adjusted in study",
+          "Cross-reference with Parity": "Parity: not adjusted",
+          "Source": "33",
+          "__rowText": "vitamin d deficiency (< 20 ng/ml) | or 2.66 (95% ci 1.01-7.02) for gdm | gdm risk after bmi adjustment | age: not adjusted | bmi: adjusted in study | parity: not adjusted | 33"
+        },
+        {
+          "Parameter": "Each 5 ng/ml decrease in 25-OH-D",
+          "Value": "OR 1.29 (95% CI 1.05-1.60) for GDM",
+          "Clinical Use": "Continuous risk",
+          "Cross-reference with Age": "Age: not adjusted",
+          "Cross-reference with BMI": "BMI: adjusted",
+          "Cross-reference with Parity": "Parity: not adjusted",
+          "Source": "33",
+          "__rowText": "each 5 ng/ml decrease in 25-oh-d | or 1.29 (95% ci 1.05-1.60) for gdm | continuous risk | age: not adjusted | bmi: adjusted | parity: not adjusted | 33"
+        },
+        {
+          "Parameter": "Gram-negative colonization risk factors",
+          "Value": "AMA, increased BMI, prior abortions, earlier GA, IVF",
+          "Clinical Use": "Preterm birth risk",
+          "Cross-reference with Age": "AMA: independent factor",
+          "Cross-reference with BMI": "BMI: independent factor",
+          "Cross-reference with Parity": "Prior abortions: factor",
+          "Source": "34",
+          "__rowText": "gram-negative colonization risk factors | ama, increased bmi, prior abortions, earlier ga, ivf | preterm birth risk | ama: independent factor | bmi: independent factor | prior abortions: factor | 34"
+        }
+      ]
+    },
+    {
+      "filename": "table (27).csv",
+      "headers": [
+        "Risk Factor",
+        "RR/OR",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Risk Factor": "Previous preeclampsia",
+          "RR/OR": "RR 7.19 (95% CI 5.85-8.83) - HIGHEST after APS",
+          "Cross-reference with Age": "AMA: even higher risk",
+          "Cross-reference with BMI": "BMI: additive",
+          "Cross-reference with Parity": "Parity: nulliparity risk different",
+          "Source": "2",
+          "__rowText": "previous preeclampsia | rr 7.19 (95% ci 5.85-8.83) - highest after aps | ama: even higher risk | bmi: additive | parity: nulliparity risk different | 2"
+        },
+        {
+          "Risk Factor": "Previous preeclampsia",
+          "RR/OR": "Pooled RR 8.4 (95% CI 7.1-9.9) - HIGHEST",
+          "Cross-reference with Age": "Age: amplified",
+          "Cross-reference with BMI": "BMI: amplified",
+          "Cross-reference with Parity": "Parity: not specified",
+          "Source": "10",
+          "__rowText": "previous preeclampsia | pooled rr 8.4 (95% ci 7.1-9.9) - highest | age: amplified | bmi: amplified | parity: not specified | 10"
+        },
+        {
+          "Risk Factor": "Interval ≥ 10 years since previous pregnancy",
+          "RR/OR": "Increased risk",
+          "Cross-reference with Age": "AMA common",
+          "Cross-reference with BMI": "BMI: unclear",
+          "Cross-reference with Parity": "Parity: relevant",
+          "Source": "2",
+          "__rowText": "interval ≥ 10 years since previous pregnancy | increased risk | ama common | bmi: unclear | parity: relevant | 2"
+        },
+        {
+          "Risk Factor": "History of stillbirth",
+          "RR/OR": "OR 2.39 (95% CI 1.68-3.40) for GDM",
+          "Cross-reference with Age": "Age: additive",
+          "Cross-reference with BMI": "BMI: additive",
+          "Cross-reference with Parity": "Parity: multiparity OR 1.37",
+          "Source": "6",
+          "__rowText": "history of stillbirth | or 2.39 (95% ci 1.68-3.40) for gdm | age: additive | bmi: additive | parity: multiparity or 1.37 | 6"
+        },
+        {
+          "Risk Factor": "History of abortion",
+          "RR/OR": "OR 2.25 (95% CI 1.54-3.29) for GDM",
+          "Cross-reference with Age": "Age: additive",
+          "Cross-reference with BMI": "BMI: additive",
+          "Cross-reference with Parity": "Prior abortions: risk factor",
+          "Source": "6",
+          "__rowText": "history of abortion | or 2.25 (95% ci 1.54-3.29) for gdm | age: additive | bmi: additive | prior abortions: risk factor | 6"
+        },
+        {
+          "Risk Factor": "History of preterm delivery",
+          "RR/OR": "OR 1.93 (95% CI 1.21-3.07) for GDM",
+          "Cross-reference with Age": "Age: additive",
+          "Cross-reference with BMI": "BMI: additive",
+          "Cross-reference with Parity": "Parity: unclear",
+          "Source": "6",
+          "__rowText": "history of preterm delivery | or 1.93 (95% ci 1.21-3.07) for gdm | age: additive | bmi: additive | parity: unclear | 6"
+        },
+        {
+          "Risk Factor": "Previous macrosomia/congenital anomalies",
+          "RR/OR": "High-risk for GDM",
+          "Cross-reference with Age": "Age: additive",
+          "Cross-reference with BMI": "BMI: additive",
+          "Cross-reference with Parity": "Parity: relevant",
+          "Source": "6",
+          "__rowText": "previous macrosomia/congenital anomalies | high-risk for gdm | age: additive | bmi: additive | parity: relevant | 6"
+        }
+      ]
+    },
+    {
+      "filename": "table (28).csv",
+      "headers": [
+        "Intervention",
+        "Effect",
+        "RR/OR",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Intervention": "Low-dose aspirin (for preeclampsia prevention)",
+          "Effect": "Effective in high-risk women",
+          "RR/OR": "Various protocols",
+          "Cross-reference with Age": "AMA: recommended",
+          "Cross-reference with BMI": "BMI: standard dosing",
+          "Source": "35",
+          "__rowText": "low-dose aspirin (for preeclampsia prevention) | effective in high-risk women | various protocols | ama: recommended | bmi: standard dosing | 35"
+        },
+        {
+          "Intervention": "Calcium supplementation ≥ 1g/day",
+          "Effect": "59% reduction in preeclampsia risk",
+          "RR/OR": "RR 0.41 (95% CI 0.24-0.69) in developing countries",
+          "Cross-reference with Age": "Age: general benefit",
+          "Cross-reference with BMI": "BMI: general benefit",
+          "Source": "36",
+          "__rowText": "calcium supplementation ≥ 1g/day | 59% reduction in preeclampsia risk | rr 0.41 (95% ci 0.24-0.69) in developing countries | age: general benefit | bmi: general benefit | 36"
+        },
+        {
+          "Intervention": "Calcium supplementation ≥ 1g/day",
+          "Effect": "45% reduction in gestational hypertension",
+          "RR/OR": "RR 0.55 (95% CI 0.36-0.85) in developing countries",
+          "Cross-reference with Age": "Age: general benefit",
+          "Cross-reference with BMI": "BMI: general benefit",
+          "Source": "37",
+          "__rowText": "calcium supplementation ≥ 1g/day | 45% reduction in gestational hypertension | rr 0.55 (95% ci 0.36-0.85) in developing countries | age: general benefit | bmi: general benefit | 37"
+        },
+        {
+          "Intervention": "Calcium supplementation",
+          "Effect": "30% reduction in neonatal mortality",
+          "RR/OR": "RR 0.70 (95% CI 0.56-0.88)",
+          "Cross-reference with Age": "Age: general benefit",
+          "Cross-reference with BMI": "BMI: general benefit",
+          "Source": "37",
+          "__rowText": "calcium supplementation | 30% reduction in neonatal mortality | rr 0.70 (95% ci 0.56-0.88) | age: general benefit | bmi: general benefit | 37"
+        },
+        {
+          "Intervention": "Dietary interventions in pregnancy",
+          "Effect": "1.42 kg reduction in gestational weight gain",
+          "RR/OR": "Mean difference",
+          "Cross-reference with Age": "AMA: helps reduce adverse outcomes",
+          "Cross-reference with BMI": "BMI: primary target",
+          "Source": "38",
+          "__rowText": "dietary interventions in pregnancy | 1.42 kg reduction in gestational weight gain | mean difference | ama: helps reduce adverse outcomes | bmi: primary target | 38"
+        },
+        {
+          "Intervention": "Dietary interventions",
+          "Effect": "26% reduction in preeclampsia",
+          "RR/OR": "RR 0.74 (95% CI 0.60-0.92)",
+          "Cross-reference with Age": "AMA: beneficial",
+          "Cross-reference with BMI": "BMI: most benefit",
+          "Source": "38",
+          "__rowText": "dietary interventions | 26% reduction in preeclampsia | rr 0.74 (95% ci 0.60-0.92) | ama: beneficial | bmi: most benefit | 38"
+        },
+        {
+          "Intervention": "Magnesium sulfate for eclampsia",
+          "Effect": "Reduces maternal mortality",
+          "RR/OR": "Standard of care",
+          "Cross-reference with Age": "Age: standard",
+          "Cross-reference with BMI": "BMI: standard",
+          "Source": "39",
+          "__rowText": "magnesium sulfate for eclampsia | reduces maternal mortality | standard of care | age: standard | bmi: standard | 39"
+        }
+      ]
+    },
+    {
+      "filename": "table (29).csv",
+      "headers": [
+        "Intervention",
+        "Effect",
+        "RR/OR",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Intervention": "Low-dose aspirin (for preeclampsia prevention)",
+          "Effect": "Effective in high-risk women",
+          "RR/OR": "Various protocols",
+          "Cross-reference with Age": "AMA: recommended",
+          "Cross-reference with BMI": "BMI: standard dosing",
+          "Source": "35",
+          "__rowText": "low-dose aspirin (for preeclampsia prevention) | effective in high-risk women | various protocols | ama: recommended | bmi: standard dosing | 35"
+        },
+        {
+          "Intervention": "Calcium supplementation ≥ 1g/day",
+          "Effect": "59% reduction in preeclampsia risk",
+          "RR/OR": "RR 0.41 (95% CI 0.24-0.69) in developing countries",
+          "Cross-reference with Age": "Age: general benefit",
+          "Cross-reference with BMI": "BMI: general benefit",
+          "Source": "36",
+          "__rowText": "calcium supplementation ≥ 1g/day | 59% reduction in preeclampsia risk | rr 0.41 (95% ci 0.24-0.69) in developing countries | age: general benefit | bmi: general benefit | 36"
+        },
+        {
+          "Intervention": "Calcium supplementation ≥ 1g/day",
+          "Effect": "45% reduction in gestational hypertension",
+          "RR/OR": "RR 0.55 (95% CI 0.36-0.85) in developing countries",
+          "Cross-reference with Age": "Age: general benefit",
+          "Cross-reference with BMI": "BMI: general benefit",
+          "Source": "37",
+          "__rowText": "calcium supplementation ≥ 1g/day | 45% reduction in gestational hypertension | rr 0.55 (95% ci 0.36-0.85) in developing countries | age: general benefit | bmi: general benefit | 37"
+        },
+        {
+          "Intervention": "Calcium supplementation",
+          "Effect": "30% reduction in neonatal mortality",
+          "RR/OR": "RR 0.70 (95% CI 0.56-0.88)",
+          "Cross-reference with Age": "Age: general benefit",
+          "Cross-reference with BMI": "BMI: general benefit",
+          "Source": "37",
+          "__rowText": "calcium supplementation | 30% reduction in neonatal mortality | rr 0.70 (95% ci 0.56-0.88) | age: general benefit | bmi: general benefit | 37"
+        },
+        {
+          "Intervention": "Dietary interventions in pregnancy",
+          "Effect": "1.42 kg reduction in gestational weight gain",
+          "RR/OR": "Mean difference",
+          "Cross-reference with Age": "AMA: helps reduce adverse outcomes",
+          "Cross-reference with BMI": "BMI: primary target",
+          "Source": "38",
+          "__rowText": "dietary interventions in pregnancy | 1.42 kg reduction in gestational weight gain | mean difference | ama: helps reduce adverse outcomes | bmi: primary target | 38"
+        },
+        {
+          "Intervention": "Dietary interventions",
+          "Effect": "26% reduction in preeclampsia",
+          "RR/OR": "RR 0.74 (95% CI 0.60-0.92)",
+          "Cross-reference with Age": "AMA: beneficial",
+          "Cross-reference with BMI": "BMI: most benefit",
+          "Source": "38",
+          "__rowText": "dietary interventions | 26% reduction in preeclampsia | rr 0.74 (95% ci 0.60-0.92) | ama: beneficial | bmi: most benefit | 38"
+        },
+        {
+          "Intervention": "Magnesium sulfate for eclampsia",
+          "Effect": "Reduces maternal mortality",
+          "RR/OR": "Standard of care",
+          "Cross-reference with Age": "Age: standard",
+          "Cross-reference with BMI": "BMI: standard",
+          "Source": "39",
+          "__rowText": "magnesium sulfate for eclampsia | reduces maternal mortality | standard of care | age: standard | bmi: standard | 39"
+        }
+      ]
+    },
+    {
+      "filename": "table (3).csv",
+      "headers": [
+        "BMI Category",
+        "Pre-pregnancy BMI",
+        "Risk Level",
+        "RR/OR for Preeclampsia",
+        "Cross-reference with Age",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "BMI Category": "Underweight",
+          "Pre-pregnancy BMI": "< 18.5 kg/m²",
+          "Risk Level": "Slightly increased PTB risk",
+          "RR/OR for Preeclampsia": "RR 1.29 for PTB",
+          "Cross-reference with Age": "Age < 20: additive",
+          "Cross-reference with Parity": "Nulliparity: RR 1.32 for spontaneous PTB",
+          "Source": "9",
+          "__rowText": "underweight | < 18.5 kg/m² | slightly increased ptb risk | rr 1.29 for ptb | age < 20: additive | nulliparity: rr 1.32 for spontaneous ptb | 9"
+        },
+        {
+          "BMI Category": "Normal",
+          "Pre-pregnancy BMI": "18.5-24.9 kg/m²",
+          "Risk Level": "Baseline",
+          "RR/OR for Preeclampsia": "1.0 (Reference)",
+          "Cross-reference with Age": "Age 20-34: baseline",
+          "Cross-reference with Parity": "Multiparity: protective",
+          "Source": "10",
+          "__rowText": "normal | 18.5-24.9 kg/m² | baseline | 1.0 (reference) | age 20-34: baseline | multiparity: protective | 10"
+        },
+        {
+          "BMI Category": "Overweight",
+          "Pre-pregnancy BMI": "25-29.9 kg/m²",
+          "Risk Level": "Moderate increase",
+          "RR/OR for Preeclampsia": "RR 2.47 (95% CI 1.66-3.67) pre-pregnancy",
+          "Cross-reference with Age": "AMA: OR 2.13 for GDM",
+          "Cross-reference with Parity": "Nulliparity: synergistic effect",
+          "Source": "2",
+          "__rowText": "overweight | 25-29.9 kg/m² | moderate increase | rr 2.47 (95% ci 1.66-3.67) pre-pregnancy | ama: or 2.13 for gdm | nulliparity: synergistic effect | 2"
+        },
+        {
+          "BMI Category": "Obese Class I",
+          "Pre-pregnancy BMI": "30-34.9 kg/m²",
+          "Risk Level": "High",
+          "RR/OR for Preeclampsia": "RR 2.8 (95% CI 2.6-3.1)",
+          "Cross-reference with Age": "AMA: significant predictor",
+          "Cross-reference with Parity": "Grand multiparity: OR 1.838 for PIH",
+          "Source": "10",
+          "__rowText": "obese class i | 30-34.9 kg/m² | high | rr 2.8 (95% ci 2.6-3.1) | ama: significant predictor | grand multiparity: or 1.838 for pih | 10"
+        },
+        {
+          "BMI Category": "Obese Class II-III",
+          "Pre-pregnancy BMI": "≥ 35 kg/m²",
+          "Risk Level": "Very High",
+          "RR/OR for Preeclampsia": "OR 6.31 for gestational hypertension; OR 3.61 for preeclampsia",
+          "Cross-reference with Age": "AMA + high BMI: worst outcomes",
+          "Cross-reference with Parity": "Multiparity + high BMI: increased risk",
+          "Source": "11",
+          "__rowText": "obese class ii-iii | ≥ 35 kg/m² | very high | or 6.31 for gestational hypertension; or 3.61 for preeclampsia | ama + high bmi: worst outcomes | multiparity + high bmi: increased risk | 11"
+        },
+        {
+          "BMI Category": "BMI > 30 pre-pregnancy",
+          "Pre-pregnancy BMI": "≥ 30 kg/m²",
+          "Risk Level": "Highest clinical risk",
+          "RR/OR for Preeclampsia": "Pooled rate 7.1% (95% CI 6.1-8.2%) PE",
+          "Cross-reference with Age": "AMA + BMI > 30: OR 3.61 for PE",
+          "Cross-reference with Parity": "Nulliparity + obesity: maximum risk",
+          "Source": "10",
+          "__rowText": "bmi > 30 pre-pregnancy | ≥ 30 kg/m² | highest clinical risk | pooled rate 7.1% (95% ci 6.1-8.2%) pe | ama + bmi > 30: or 3.61 for pe | nulliparity + obesity: maximum risk | 10"
+        }
+      ]
+    },
+    {
+      "filename": "table (30).csv",
+      "headers": [
+        "Outcome",
+        "RR After Preeclampsia",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Outcome": "Future heart failure",
+          "RR After Preeclampsia": "RR 4.19 (95% CI 2.09-8.38)",
+          "Cross-reference with Age": "Age-adjusted RR 3.89",
+          "Cross-reference with BMI": "BMI-adjusted RR 3.16",
+          "Cross-reference with Parity": "Parity: unclear",
+          "Source": "40",
+          "__rowText": "future heart failure | rr 4.19 (95% ci 2.09-8.38) | age-adjusted rr 3.89 | bmi-adjusted rr 3.16 | parity: unclear | 40"
+        },
+        {
+          "Outcome": "Future coronary heart disease",
+          "RR After Preeclampsia": "RR 2.50 (95% CI 1.43-4.37)",
+          "Cross-reference with Age": "Age-adjusted RR 3.89",
+          "Cross-reference with BMI": "BMI-adjusted RR 3.16",
+          "Cross-reference with Parity": "Parity: unclear",
+          "Source": "40",
+          "__rowText": "future coronary heart disease | rr 2.50 (95% ci 1.43-4.37) | age-adjusted rr 3.89 | bmi-adjusted rr 3.16 | parity: unclear | 40"
+        },
+        {
+          "Outcome": "Cardiovascular disease death",
+          "RR After Preeclampsia": "RR 2.21 (95% CI 1.83-2.66)",
+          "Cross-reference with Age": "Age: major factor",
+          "Cross-reference with BMI": "BMI: major factor",
+          "Cross-reference with Parity": "Parity: unclear",
+          "Source": "40",
+          "__rowText": "cardiovascular disease death | rr 2.21 (95% ci 1.83-2.66) | age: major factor | bmi: major factor | parity: unclear | 40"
+        },
+        {
+          "Outcome": "Future stroke",
+          "RR After Preeclampsia": "RR 1.81 (95% CI 1.29-2.55)",
+          "Cross-reference with Age": "Age-adjusted still significant",
+          "Cross-reference with BMI": "BMI-adjusted still significant",
+          "Cross-reference with Parity": "Parity: unclear",
+          "Source": "40",
+          "__rowText": "future stroke | rr 1.81 (95% ci 1.29-2.55) | age-adjusted still significant | bmi-adjusted still significant | parity: unclear | 40"
+        },
+        {
+          "Outcome": "Stroke death",
+          "RR After Preeclampsia": "RR increased",
+          "Cross-reference with Age": "Age: major factor",
+          "Cross-reference with BMI": "BMI: major factor",
+          "Cross-reference with Parity": "Parity: unclear",
+          "Source": "40",
+          "__rowText": "stroke death | rr increased | age: major factor | bmi: major factor | parity: unclear | 40"
+        }
+      ]
+    },
+    {
+      "filename": "table (31).csv",
+      "headers": [
+        "Suggested Row",
+        "Rationale",
+        "Suggested Source"
+      ],
+      "rows": [
+        {
+          "Suggested Row": "Ethnicity",
+          "Rationale": "Asian women: OR 2.17 for GDM at age ≥ 25; Oriental/Hispanic/Indian subcontinent higher risk",
+          "Suggested Source": "41",
+          "__rowText": "ethnicity | asian women: or 2.17 for gdm at age ≥ 25; oriental/hispanic/indian subcontinent higher risk | 41"
+        },
+        {
+          "Suggested Row": "Socioeconomic status",
+          "Rationale": "Low SES: increased HDP risk; affects access to care",
+          "Suggested Source": "35",
+          "__rowText": "socioeconomic status | low ses: increased hdp risk; affects access to care | 35"
+        },
+        {
+          "Suggested Row": "Smoking status",
+          "Rationale": "RR 1.43 for GDM in pregravid smokers",
+          "Suggested Source": "4",
+          "__rowText": "smoking status | rr 1.43 for gdm in pregravid smokers | 4"
+        },
+        {
+          "Suggested Row": "Physical activity",
+          "Rationale": "Vigorous exercise: non-significant reduction in GDM risk",
+          "Suggested Source": "4",
+          "__rowText": "physical activity | vigorous exercise: non-significant reduction in gdm risk | 4"
+        }
+      ]
+    },
+    {
+      "filename": "table (32).csv",
+      "headers": [
+        "Suggested Row",
+        "Rationale",
+        "Suggested Source"
+      ],
+      "rows": [
+        {
+          "Suggested Row": "Mental stress during pregnancy",
+          "Rationale": "OR 1.32 (95% CI 1.19-1.46) per 5 unit PSS increase for PE",
+          "Suggested Source": "19",
+          "__rowText": "mental stress during pregnancy | or 1.32 (95% ci 1.19-1.46) per 5 unit pss increase for pe | 19"
+        },
+        {
+          "Suggested Row": "Urinary tract infection",
+          "Rationale": "Not associated with PE risk",
+          "Suggested Source": "19",
+          "__rowText": "urinary tract infection | not associated with pe risk | 19"
+        },
+        {
+          "Suggested Row": "Infertility history",
+          "Rationale": "Increased GDM risk",
+          "Suggested Source": "41",
+          "__rowText": "infertility history | increased gdm risk | 41"
+        },
+        {
+          "Suggested Row": "Syphilis screening",
+          "Rationale": "Reduces antepartum stillbirth",
+          "Suggested Source": "42",
+          "__rowText": "syphilis screening | reduces antepartum stillbirth | 42"
+        },
+        {
+          "Suggested Row": "Periodontal disease",
+          "Rationale": "Clear risk factor for stillbirth",
+          "Suggested Source": "42",
+          "__rowText": "periodontal disease | clear risk factor for stillbirth | 42"
+        }
+      ]
+    },
+    {
+      "filename": "table (33).csv",
+      "headers": [
+        "Suggested Row",
+        "Rationale",
+        "Suggested Source"
+      ],
+      "rows": [
+        {
+          "Suggested Row": "SGA (Small for Gestational Age)",
+          "Rationale": "RR 2.23 with abnormal BMI; RR 2.38 with preeclampsia",
+          "Suggested Source": "43",
+          "__rowText": "sga (small for gestational age) | rr 2.23 with abnormal bmi; rr 2.38 with preeclampsia | 43"
+        },
+        {
+          "Suggested Row": "LGA (Large for Gestational Age)",
+          "Rationale": "OR 1.53 overweight, OR 2.08 obese mothers",
+          "Suggested Source": "12",
+          "__rowText": "lga (large for gestational age) | or 1.53 overweight, or 2.08 obese mothers | 12"
+        },
+        {
+          "Suggested Row": "Macrosomia",
+          "Rationale": "OR 1.67 overweight, OR 3.23 obese; OR 1.675 in GMP",
+          "Suggested Source": "12",
+          "__rowText": "macrosomia | or 1.67 overweight, or 3.23 obese; or 1.675 in gmp | 12"
+        },
+        {
+          "Suggested Row": "Low birth weight",
+          "Rationale": "RR 1.47 underweight mothers; RR 1.64 underweight",
+          "Suggested Source": "9",
+          "__rowText": "low birth weight | rr 1.47 underweight mothers; rr 1.64 underweight | 9"
+        },
+        {
+          "Suggested Row": "Preterm birth",
+          "Rationale": "RR 1.29 underweight; RR 1.22 in developed countries",
+          "Suggested Source": "9",
+          "__rowText": "preterm birth | rr 1.29 underweight; rr 1.22 in developed countries | 9"
+        },
+        {
+          "Suggested Row": "NICU admission",
+          "Rationale": "Higher in GMP (p=0.04); higher with Gram-negative colonization",
+          "Suggested Source": "15",
+          "__rowText": "nicu admission | higher in gmp (p=0.04); higher with gram-negative colonization | 15"
+        }
+      ]
+    },
+    {
+      "filename": "table (34).csv",
+      "headers": [
+        "Risk Factor",
+        "vs Age",
+        "vs BMI",
+        "vs Nulliparity",
+        "vs Multiparity",
+        "vs Family History"
+      ],
+      "rows": [
+        {
+          "Risk Factor": "Advanced Maternal Age (≥35)",
+          "vs Age": "Baseline",
+          "vs BMI": "OR 2.13-2.90 (GDM)",
+          "vs Nulliparity": "OR 2.91 (PE)",
+          "vs Multiparity": "RR 1.96 (multiparous)",
+          "vs Family History": "RR 1.68 (FH DM)",
+          "__rowText": "advanced maternal age (≥35) | baseline | or 2.13-2.90 (gdm) | or 2.91 (pe) | rr 1.96 (multiparous) | rr 1.68 (fh dm)"
+        },
+        {
+          "Risk Factor": "BMI > 30",
+          "vs Age": "OR 3.61 (PE)",
+          "vs BMI": "Baseline",
+          "vs Nulliparity": "RR 2.47 (PE)",
+          "vs Multiparity": "OR 1.838 (PIH in GMP)",
+          "vs Family History": "OR 2.77 (FH DM)",
+          "__rowText": "bmi > 30 | or 3.61 (pe) | baseline | rr 2.47 (pe) | or 1.838 (pih in gmp) | or 2.77 (fh dm)"
+        },
+        {
+          "Risk Factor": "Nulliparity",
+          "vs Age": "OR 2.91 (PE)",
+          "vs BMI": "RR 2.47",
+          "vs Nulliparity": "Baseline",
+          "vs Multiparity": "-",
+          "vs Family History": "OR 2.90 (FH PE)",
+          "__rowText": "nulliparity | or 2.91 (pe) | rr 2.47 | baseline | - | or 2.90 (fh pe)"
+        },
+        {
+          "Risk Factor": "GMP (Para ≥5)",
+          "vs Age": "Age adjusted",
+          "vs BMI": "BMI main factor",
+          "vs Nulliparity": "Different from multiparous",
+          "vs Multiparity": "Baseline",
+          "vs Family History": "Not specified",
+          "__rowText": "gmp (para ≥5) | age adjusted | bmi main factor | different from multiparous | baseline | not specified"
+        },
+        {
+          "Risk Factor": "Family History PE",
+          "vs Age": "Not additive",
+          "vs BMI": "Not additive",
+          "vs Nulliparity": "OR 2.90 combined",
+          "vs Multiparity": "Not specified",
+          "vs Family History": "Baseline",
+          "__rowText": "family history pe | not additive | not additive | or 2.90 combined | not specified | baseline"
+        },
+        {
+          "Risk Factor": "Family History DM",
+          "vs Age": "OR 2.17 combined",
+          "vs BMI": "OR 2.90 combined",
+          "vs Nulliparity": "Not specified",
+          "vs Multiparity": "OR 1.37 combined",
+          "vs Family History": "Baseline",
+          "__rowText": "family history dm | or 2.17 combined | or 2.90 combined | not specified | or 1.37 combined | baseline"
+        }
+      ]
+    },
+    {
+      "filename": "table (4).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Family History",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "Nulliparity RR for PE",
+          "Value": "2.91 (95% CI 1.28-6.61)",
+          "Cross-reference with Age": "AMA + nulliparity: highest risk",
+          "Cross-reference with BMI": "BMI > 30 + nulliparity: additive",
+          "Cross-reference with Family History": "FH PE: OR 2.90 combined effect",
+          "Source": "2",
+          "__rowText": "nulliparity rr for pe | 2.91 (95% ci 1.28-6.61) | ama + nulliparity: highest risk | bmi > 30 + nulliparity: additive | fh pe: or 2.90 combined effect | 2"
+        },
+        {
+          "Parameter": "Nulliparity OR for LBW",
+          "Value": "1.41 (95% CI 1.26-1.58)",
+          "Cross-reference with Age": "Young nulliparas: higher risk",
+          "Cross-reference with BMI": "Underweight + nulliparity: RR 1.47 for LBW",
+          "Cross-reference with Family History": "No FH: baseline nulliparity risk",
+          "Source": "14",
+          "__rowText": "nulliparity or for lbw | 1.41 (95% ci 1.26-1.58) | young nulliparas: higher risk | underweight + nulliparity: rr 1.47 for lbw | no fh: baseline nulliparity risk | 14"
+        },
+        {
+          "Parameter": "Nulliparity OR for SGA",
+          "Value": "1.89 (95% CI 1.82-1.96)",
+          "Cross-reference with Age": "Age < 20: RR 1.81 for SGA",
+          "Cross-reference with BMI": "BMI < 18.5 + nulliparity: synergistic",
+          "Cross-reference with Family History": "FH hypertension: additional risk",
+          "Source": "14",
+          "__rowText": "nulliparity or for sga | 1.89 (95% ci 1.82-1.96) | age < 20: rr 1.81 for sga | bmi < 18.5 + nulliparity: synergistic | fh hypertension: additional risk | 14"
+        },
+        {
+          "Parameter": "Nulliparity effect on biomarkers",
+          "Value": "Lower sFlt-1/PlGF ratio than multiparous",
+          "Cross-reference with Age": "AMA + nulliparity: elevated ratios",
+          "Cross-reference with BMI": "BMI < 25 + nulliparity: reference for ratios",
+          "Cross-reference with Family History": "FH PE: abnormal ratios earlier",
+          "Source": "13",
+          "__rowText": "nulliparity effect on biomarkers | lower sflt-1/plgf ratio than multiparous | ama + nulliparity: elevated ratios | bmi < 25 + nulliparity: reference for ratios | fh pe: abnormal ratios earlier | 13"
+        }
+      ]
+    },
+    {
+      "filename": "table (5).csv",
+      "headers": [
+        "Parity Category",
+        "Definition",
+        "RR/OR for Adverse Outcomes",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parity Category": "Primiparity",
+          "Definition": "First pregnancy (Para 1)",
+          "RR/OR for Adverse Outcomes": "Baseline for comparison",
+          "Cross-reference with Age": "AMA + primiparity: increased CS",
+          "Cross-reference with BMI": "BMI ≥ 25 + primiparity: GDM risk",
+          "Source": "15",
+          "__rowText": "primiparity | first pregnancy (para 1) | baseline for comparison | ama + primiparity: increased cs | bmi ≥ 25 + primiparity: gdm risk | 15"
+        },
+        {
+          "Parity Category": "Multiparity",
+          "Definition": "Para 2-4",
+          "RR/OR for Adverse Outcomes": "OR 0.6 for CS after age adjustment",
+          "Cross-reference with Age": "Age adjusted: protective",
+          "Cross-reference with BMI": "Lower sFlt-1 and sFlt-1/PlGF ratios",
+          "Source": "15",
+          "__rowText": "multiparity | para 2-4 | or 0.6 for cs after age adjustment | age adjusted: protective | lower sflt-1 and sflt-1/plgf ratios | 15"
+        },
+        {
+          "Parity Category": "Grand Multiparity (GMP)",
+          "Definition": "Para ≥ 5",
+          "RR/OR for Adverse Outcomes": "OR 2.699 for cesarean delivery; OR 1.675 for macrosomia; OR 1.634 for DM; OR 1.838 for PIH",
+          "Cross-reference with Age": "Age: major confounder; adjusted OR shows age effect",
+          "Cross-reference with BMI": "BMI: interacts with GDM risk",
+          "Source": "16",
+          "__rowText": "grand multiparity (gmp) | para ≥ 5 | or 2.699 for cesarean delivery; or 1.675 for macrosomia; or 1.634 for dm; or 1.838 for pih | age: major confounder; adjusted or shows age effect | bmi: interacts with gdm risk | 16"
+        },
+        {
+          "Parity Category": "GMP (Malpresentation)",
+          "Definition": "Para ≥ 5",
+          "RR/OR for Adverse Outcomes": "OR 2.0 for malpresentation",
+          "Cross-reference with Age": "Age adjusted",
+          "Cross-reference with BMI": "BMI: no significant interaction",
+          "Source": "17",
+          "__rowText": "gmp (malpresentation) | para ≥ 5 | or 2.0 for malpresentation | age adjusted | bmi: no significant interaction | 17"
+        },
+        {
+          "Parity Category": "GMP (Meconium)",
+          "Definition": "Para ≥ 5",
+          "RR/OR for Adverse Outcomes": "OR 3.0 for meconium-stained liquor",
+          "Cross-reference with Age": "Age adjusted",
+          "Cross-reference with BMI": "BMI: not significant",
+          "Source": "17",
+          "__rowText": "gmp (meconium) | para ≥ 5 | or 3.0 for meconium-stained liquor | age adjusted | bmi: not significant | 17"
+        },
+        {
+          "Parity Category": "GMP (Placenta previa)",
+          "Definition": "Para ≥ 5",
+          "RR/OR for Adverse Outcomes": "OR 3.0 vs lower parity",
+          "Cross-reference with Age": "Age adjusted",
+          "Cross-reference with BMI": "BMI: no interaction",
+          "Source": "17",
+          "__rowText": "gmp (placenta previa) | para ≥ 5 | or 3.0 vs lower parity | age adjusted | bmi: no interaction | 17"
+        },
+        {
+          "Parity Category": "GMP (Low Apgar)",
+          "Definition": "Para ≥ 5",
+          "RR/OR for Adverse Outcomes": "OR 2.9 (95% CI 1.5-5.0)",
+          "Cross-reference with Age": "Age: independent risk",
+          "Cross-reference with BMI": "BMI: LBW confounder",
+          "Source": "17",
+          "__rowText": "gmp (low apgar) | para ≥ 5 | or 2.9 (95% ci 1.5-5.0) | age: independent risk | bmi: lbw confounder | 17"
+        },
+        {
+          "Parity Category": "Multiparity ≥ 2",
+          "Definition": "Para ≥ 2",
+          "RR/OR for Adverse Outcomes": "OR 1.37 (95% CI 1.24-1.52) for GDM",
+          "Cross-reference with Age": "Age ≥ 25: OR 2.17 combined",
+          "Cross-reference with BMI": "BMI > 25: additive",
+          "Source": "6",
+          "__rowText": "multiparity ≥ 2 | para ≥ 2 | or 1.37 (95% ci 1.24-1.52) for gdm | age ≥ 25: or 2.17 combined | bmi > 25: additive | 6"
+        },
+        {
+          "Parity Category": "Great Grand Multiparity",
+          "Definition": "Para ≥ 10",
+          "RR/OR for Adverse Outcomes": "Not significantly different from GMP after age adjustment",
+          "Cross-reference with Age": "Age: major determinant",
+          "Cross-reference with BMI": "BMI: no additional risk",
+          "Source": "18",
+          "__rowText": "great grand multiparity | para ≥ 10 | not significantly different from gmp after age adjustment | age: major determinant | bmi: no additional risk | 18"
+        }
+      ]
+    },
+    {
+      "filename": "table (6).csv",
+      "headers": [
+        "Family History",
+        "Condition",
+        "OR/RR for Developing Condition",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Family History": "FH of preeclampsia",
+          "Condition": "Preeclampsia",
+          "OR/RR for Developing Condition": "OR 2.90 (95% CI 1.70-4.93)",
+          "Cross-reference with Age": "AMA: additive effect",
+          "Cross-reference with BMI": "BMI > 30: synergistic",
+          "Source": "2",
+          "__rowText": "fh of preeclampsia | preeclampsia | or 2.90 (95% ci 1.70-4.93) | ama: additive effect | bmi > 30: synergistic | 2"
+        },
+        {
+          "Family History": "FH of hypertension",
+          "Condition": "Preeclampsia",
+          "OR/RR for Developing Condition": "OR 2.06 (95% CI 1.27-3.35)",
+          "Cross-reference with Age": "Age: not significant alone",
+          "Cross-reference with BMI": "BMI: not significant alone",
+          "Source": "19",
+          "__rowText": "fh of hypertension | preeclampsia | or 2.06 (95% ci 1.27-3.35) | age: not significant alone | bmi: not significant alone | 19"
+        },
+        {
+          "Family History": "FH of gestational diabetes",
+          "Condition": "GDM",
+          "OR/RR for Developing Condition": "OR 2.77 (95% CI 2.22-3.47)",
+          "Cross-reference with Age": "Age ≥ 25: OR 2.17; combined risk high",
+          "Cross-reference with BMI": "BMI: major predictor",
+          "Source": "6",
+          "__rowText": "fh of gestational diabetes | gdm | or 2.77 (95% ci 2.22-3.47) | age ≥ 25: or 2.17; combined risk high | bmi: major predictor | 6"
+        },
+        {
+          "Family History": "FH of pre-gestational diabetes",
+          "Condition": "Preeclampsia",
+          "OR/RR for Developing Condition": "OR 7.36 (95% CI 1.37-33.66)",
+          "Cross-reference with Age": "AMA: amplified risk",
+          "Cross-reference with BMI": "BMI: independent risk",
+          "Source": "19",
+          "__rowText": "fh of pre-gestational diabetes | preeclampsia | or 7.36 (95% ci 1.37-33.66) | ama: amplified risk | bmi: independent risk | 19"
+        },
+        {
+          "Family History": "FH of diabetes mellitus",
+          "Condition": "GDM",
+          "OR/RR for Developing Condition": "RR 1.68 (95% CI 1.39-2.04)",
+          "Cross-reference with Age": "Age: significant predictor",
+          "Cross-reference with BMI": "BMI 25-29.9: OR 2.13; BMI ≥ 30: OR 2.90",
+          "Source": "4",
+          "__rowText": "fh of diabetes mellitus | gdm | rr 1.68 (95% ci 1.39-2.04) | age: significant predictor | bmi 25-29.9: or 2.13; bmi ≥ 30: or 2.90 | 4"
+        },
+        {
+          "Family History": "FH of diabetes",
+          "Condition": "GDM + PIH adverse outcomes",
+          "OR/RR for Developing Condition": "Significant risk factor per nomogram",
+          "Cross-reference with Age": "AMA: independent predictor",
+          "Cross-reference with BMI": "Pre-pregnancy BMI: independent predictor",
+          "Source": "5",
+          "__rowText": "fh of diabetes | gdm + pih adverse outcomes | significant risk factor per nomogram | ama: independent predictor | pre-pregnancy bmi: independent predictor | 5"
+        }
+      ]
+    },
+    {
+      "filename": "table (7).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "Pooled rate of PE",
+          "Value": "16.0% (95% CI 12.6-19.7%)",
+          "Cross-reference with Age": "AMA: increased rate",
+          "Cross-reference with BMI": "BMI > 30: higher rate",
+          "Cross-reference with Parity": "Nulliparity: 16% baseline",
+          "Source": "10",
+          "__rowText": "pooled rate of pe | 16.0% (95% ci 12.6-19.7%) | ama: increased rate | bmi > 30: higher rate | nulliparity: 16% baseline | 10"
+        },
+        {
+          "Parameter": "Pooled RR for PE",
+          "Value": "5.1 (95% CI 4.0-6.5)",
+          "Cross-reference with Age": "Age > 40: RR amplified",
+          "Cross-reference with BMI": "BMI: additive effect",
+          "Cross-reference with Parity": "Nulliparity: RR 5.1 baseline",
+          "Source": "10",
+          "__rowText": "pooled rr for pe | 5.1 (95% ci 4.0-6.5) | age > 40: rr amplified | bmi: additive effect | nulliparity: rr 5.1 baseline | 10"
+        },
+        {
+          "Parameter": "Booking DBP ≥ 80 mmHg",
+          "Value": "RR 1.38 (95% CI 1.01-1.87)",
+          "Cross-reference with Age": "Age: baseline risk",
+          "Cross-reference with BMI": "BMI: additive",
+          "Cross-reference with Parity": "Parity: not significant",
+          "Source": "2",
+          "__rowText": "booking dbp ≥ 80 mmhg | rr 1.38 (95% ci 1.01-1.87) | age: baseline risk | bmi: additive | parity: not significant | 2"
+        },
+        {
+          "Parameter": "History of HDP → Chronic HTN",
+          "Value": "OR 3.6 overall; PE specifically OR 3.2",
+          "Cross-reference with Age": "Adjusted for age and BMI",
+          "Cross-reference with BMI": "Pre-pregnancy BMI: independent",
+          "Cross-reference with Parity": "Parity: not adjusted",
+          "Source": "20",
+          "__rowText": "history of hdp → chronic htn | or 3.6 overall; pe specifically or 3.2 | adjusted for age and bmi | pre-pregnancy bmi: independent | parity: not adjusted | 20"
+        },
+        {
+          "Parameter": "History of GH → Chronic HTN",
+          "Value": "OR 6.2",
+          "Cross-reference with Age": "Age at recruitment: adjusted",
+          "Cross-reference with BMI": "Pre-pregnancy BMI: adjusted",
+          "Cross-reference with Parity": "First delivery age: adjusted",
+          "Source": "20",
+          "__rowText": "history of gh → chronic htn | or 6.2 | age at recruitment: adjusted | pre-pregnancy bmi: adjusted | first delivery age: adjusted | 20"
+        }
+      ]
+    },
+    {
+      "filename": "table (8).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "Pooled rate of PE",
+          "Value": "11.0% (95% CI 8.4-13.8%)",
+          "Cross-reference with Age": "AMA: elevated",
+          "Cross-reference with BMI": "BMI: additive",
+          "Cross-reference with Parity": "Nulliparity: baseline",
+          "Source": "10",
+          "__rowText": "pooled rate of pe | 11.0% (95% ci 8.4-13.8%) | ama: elevated | bmi: additive | nulliparity: baseline | 10"
+        },
+        {
+          "Parameter": "Pooled RR for PE",
+          "Value": "3.7 (95% CI 3.1-4.3)",
+          "Cross-reference with Age": "AMA: RR amplified",
+          "Cross-reference with BMI": "BMI > 30: RR 2.8",
+          "Cross-reference with Parity": "Nulliparity: RR 3.7 baseline",
+          "Source": "10",
+          "__rowText": "pooled rr for pe | 3.7 (95% ci 3.1-4.3) | ama: rr amplified | bmi > 30: rr 2.8 | nulliparity: rr 3.7 baseline | 10"
+        },
+        {
+          "Parameter": "GDM with prior DM → PE",
+          "Value": "OR 7.36 (95% CI 1.37-33.66)",
+          "Cross-reference with Age": "AMA: risk amplifier",
+          "Cross-reference with BMI": "BMI: significant",
+          "Cross-reference with Parity": "Parity: not specified",
+          "Source": "19",
+          "__rowText": "gdm with prior dm → pe | or 7.36 (95% ci 1.37-33.66) | ama: risk amplifier | bmi: significant | parity: not specified | 19"
+        },
+        {
+          "Parameter": "DM Type 1 before pregnancy",
+          "Value": "Lower PlGF at 26 weeks; higher sFlt-1",
+          "Cross-reference with Age": "Age: not specified",
+          "Cross-reference with BMI": "BMI: affects levels",
+          "Cross-reference with Parity": "Parity: affects sFlt-1",
+          "Source": "1",
+          "__rowText": "dm type 1 before pregnancy | lower plgf at 26 weeks; higher sflt-1 | age: not specified | bmi: affects levels | parity: affects sflt-1 | 1"
+        },
+        {
+          "Parameter": "DM Type 1: PlGF reference",
+          "Value": "120-423 pg/mL (normal non-DM)",
+          "Cross-reference with Age": "-",
+          "Cross-reference with BMI": "-",
+          "Cross-reference with Parity": "-",
+          "Source": "1",
+          "__rowText": "dm type 1: plgf reference | 120-423 pg/ml (normal non-dm) | - | - | - | 1"
+        },
+        {
+          "Parameter": "DM Type 1: sFlt-1 reference",
+          "Value": "1,108-3,393 pg/mL (normal non-DM)",
+          "Cross-reference with Age": "-",
+          "Cross-reference with BMI": "-",
+          "Cross-reference with Parity": "-",
+          "Source": "1",
+          "__rowText": "dm type 1: sflt-1 reference | 1,108-3,393 pg/ml (normal non-dm) | - | - | - | 1"
+        },
+        {
+          "Parameter": "DM Type 1: sEng reference",
+          "Value": "844-1,630 pg/mL (normal non-DM)",
+          "Cross-reference with Age": "-",
+          "Cross-reference with BMI": "-",
+          "Cross-reference with Parity": "-",
+          "Source": "1",
+          "__rowText": "dm type 1: seng reference | 844-1,630 pg/ml (normal non-dm) | - | - | - | 1"
+        },
+        {
+          "Parameter": "DM Type 1: PlGF 26 weeks",
+          "Value": "231 pg/mL (with PlGF 26Wks lower pattern)",
+          "Cross-reference with Age": "-",
+          "Cross-reference with BMI": "-",
+          "Cross-reference with Parity": "-",
+          "Source": "1",
+          "__rowText": "dm type 1: plgf 26 weeks | 231 pg/ml (with plgf 26wks lower pattern) | - | - | - | 1"
+        },
+        {
+          "Parameter": "DM Type 1: sFlt-1/PlGF ratio",
+          "Value": "Higher ratio indicates PE risk",
+          "Cross-reference with Age": "Age: higher ratio with AMA",
+          "Cross-reference with BMI": "BMI: affects ratio interpretation",
+          "Cross-reference with Parity": "Parity: multiparous lower ratios",
+          "Source": "13",
+          "__rowText": "dm type 1: sflt-1/plgf ratio | higher ratio indicates pe risk | age: higher ratio with ama | bmi: affects ratio interpretation | parity: multiparous lower ratios | 13"
+        }
+      ]
+    },
+    {
+      "filename": "table (9).csv",
+      "headers": [
+        "Parameter",
+        "Value",
+        "Cross-reference with Age",
+        "Cross-reference with BMI",
+        "Cross-reference with Parity",
+        "Source"
+      ],
+      "rows": [
+        {
+          "Parameter": "Previous GDM",
+          "Value": "OR 3.27 (95% CI 2.81-3.80)",
+          "Cross-reference with Age": "Age ≥ 25: OR 2.17; combined highest",
+          "Cross-reference with BMI": "BMI: additive",
+          "Cross-reference with Parity": "Multiparity ≥ 2: OR 1.37",
+          "Source": "6",
+          "__rowText": "previous gdm | or 3.27 (95% ci 2.81-3.80) | age ≥ 25: or 2.17; combined highest | bmi: additive | multiparity ≥ 2: or 1.37 | 6"
+        },
+        {
+          "Parameter": "GDM in current pregnancy → PE",
+          "Value": "OR 6.57 (95% CI 1.94-22.25)",
+          "Cross-reference with Age": "AMA: amplified",
+          "Cross-reference with BMI": "BMI > 30: additive",
+          "Cross-reference with Parity": "Nulliparity: baseline",
+          "Source": "19",
+          "__rowText": "gdm in current pregnancy → pe | or 6.57 (95% ci 1.94-22.25) | ama: amplified | bmi > 30: additive | nulliparity: baseline | 19"
+        },
+        {
+          "Parameter": "BMI 25-29.9 (GDM risk)",
+          "Value": "OR 2.13 (95% CI 1.65-2.74)",
+          "Cross-reference with Age": "AMA: combined risk",
+          "Cross-reference with BMI": "Baseline for BMI effect",
+          "Cross-reference with Parity": "Multiparity: OR 1.37",
+          "Source": "4",
+          "__rowText": "bmi 25-29.9 (gdm risk) | or 2.13 (95% ci 1.65-2.74) | ama: combined risk | baseline for bmi effect | multiparity: or 1.37 | 4"
+        },
+        {
+          "Parameter": "BMI ≥ 30 (GDM risk)",
+          "Value": "OR 2.90 (95% CI 2.15-3.91)",
+          "Cross-reference with Age": "AMA: worst outcomes",
+          "Cross-reference with BMI": "Reference BMI < 20",
+          "Cross-reference with Parity": "Nulliparity: higher CS rate",
+          "Source": "4",
+          "__rowText": "bmi ≥ 30 (gdm risk) | or 2.90 (95% ci 2.15-3.91) | ama: worst outcomes | reference bmi < 20 | nulliparity: higher cs rate | 4"
+        },
+        {
+          "Parameter": "Maternal obesity + GDM",
+          "Value": "OR 6.28 (95% CI 3.01-13.06) for GDM",
+          "Cross-reference with Age": "AMA: additive",
+          "Cross-reference with BMI": "Baseline for obese category",
+          "Cross-reference with Parity": "Multiparity: protective",
+          "Source": "11",
+          "__rowText": "maternal obesity + gdm | or 6.28 (95% ci 3.01-13.06) for gdm | ama: additive | baseline for obese category | multiparity: protective | 11"
+        },
+        {
+          "Parameter": "GDM with PIH",
+          "Value": "Risk prediction model AUC 0.821",
+          "Cross-reference with Age": "AMA: independent risk",
+          "Cross-reference with BMI": "Pre-pregnancy BMI: independent",
+          "Cross-reference with Parity": "Primipara: studied specifically",
+          "Source": "5",
+          "__rowText": "gdm with pih | risk prediction model auc 0.821 | ama: independent risk | pre-pregnancy bmi: independent | primipara: studied specifically | 5"
+        }
+      ]
+    }
+  ]
+}

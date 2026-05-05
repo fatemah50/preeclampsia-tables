@@ -1,0 +1,1 @@
+c:/python314/python.exe -m streamlit run app.py

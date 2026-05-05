@@ -1,0 +1,6 @@
+"Parameter","Value","Cross-reference with Age","Cross-reference with BMI","Cross-reference with Parity","Source"
+"Pooled rate of PE","16.0% (95% CI 12.6-19.7%)","AMA: increased rate","BMI > 30: higher rate","Nulliparity: 16% baseline","10"
+"Pooled RR for PE","5.1 (95% CI 4.0-6.5)","Age > 40: RR amplified","BMI: additive effect","Nulliparity: RR 5.1 baseline","10"
+"Booking DBP ≥ 80 mmHg","RR 1.38 (95% CI 1.01-1.87)","Age: baseline risk","BMI: additive","Parity: not significant","2"
+"History of HDP → Chronic HTN","OR 3.6 overall; PE specifically OR 3.2","Adjusted for age and BMI","Pre-pregnancy BMI: independent","Parity: not adjusted","20"
+"History of GH → Chronic HTN","OR 6.2","Age at recruitment: adjusted","Pre-pregnancy BMI: adjusted","First delivery age: adjusted","20"

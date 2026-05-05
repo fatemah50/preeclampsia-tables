@@ -1,0 +1,7 @@
+"Family History","Condition","OR/RR for Developing Condition","Cross-reference with Age","Cross-reference with BMI","Source"
+"FH of preeclampsia","Preeclampsia","OR 2.90 (95% CI 1.70-4.93)","AMA: additive effect","BMI > 30: synergistic","2"
+"FH of hypertension","Preeclampsia","OR 2.06 (95% CI 1.27-3.35)","Age: not significant alone","BMI: not significant alone","19"
+"FH of gestational diabetes","GDM","OR 2.77 (95% CI 2.22-3.47)","Age ≥ 25: OR 2.17; combined risk high","BMI: major predictor","6"
+"FH of pre-gestational diabetes","Preeclampsia","OR 7.36 (95% CI 1.37-33.66)","AMA: amplified risk","BMI: independent risk","19"
+"FH of diabetes mellitus","GDM","RR 1.68 (95% CI 1.39-2.04)","Age: significant predictor","BMI 25-29.9: OR 2.13; BMI ≥ 30: OR 2.90","4"
+"FH of diabetes","GDM + PIH adverse outcomes","Significant risk factor per nomogram","AMA: independent predictor","Pre-pregnancy BMI: independent predictor","5"

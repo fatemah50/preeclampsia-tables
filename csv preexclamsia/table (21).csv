@@ -1,0 +1,7 @@
+"Parameter","Value","Clinical Use","Cross-reference with Age","Cross-reference with BMI","Cross-reference with Parity","Source"
+"Normal sFlt-1 (non-DM)","1,108-3,393 pg/mL","Reference range","Age: baseline","BMI: baseline","Parity: baseline","1"
+"Higher sFlt-1 at 26 weeks","PE indicator","Higher ratio","AMA: same pattern","BMI: affects levels","Parity: multiparous lower","1"
+"sFlt-1 affected by","Parity and BMI","Multiparous lower; BMI ≥ 25 lower","Age: no direct effect","BMI ≥ 25: lower levels","Multiparity: lowers sFlt-1","13"
+"Development cohort median","85 (IQR 44-164) for PE within 2 weeks","Predictor","AMA: validated","BMI: affects levels","Parity: affects levels","31"
+"No PE median","8 (IQR 3-35)","Reference","AMA: baseline","BMI: baseline","Parity: baseline","31"
+"AUC for PE prediction","0.87","Good discriminative ability","AMA: validated","BMI: validated","Parity: validated","31"

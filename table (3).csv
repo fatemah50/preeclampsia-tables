@@ -1,0 +1,7 @@
+"BMI Category","Pre-pregnancy BMI","Risk Level","RR/OR for Preeclampsia","Cross-reference with Age","Cross-reference with Parity","Source"
+"Underweight","< 18.5 kg/m²","Slightly increased PTB risk","RR 1.29 for PTB","Age < 20: additive","Nulliparity: RR 1.32 for spontaneous PTB","9"
+"Normal","18.5-24.9 kg/m²","Baseline","1.0 (Reference)","Age 20-34: baseline","Multiparity: protective","10"
+"Overweight","25-29.9 kg/m²","Moderate increase","RR 2.47 (95% CI 1.66-3.67) pre-pregnancy","AMA: OR 2.13 for GDM","Nulliparity: synergistic effect","2"
+"Obese Class I","30-34.9 kg/m²","High","RR 2.8 (95% CI 2.6-3.1)","AMA: significant predictor","Grand multiparity: OR 1.838 for PIH","10"
+"Obese Class II-III","≥ 35 kg/m²","Very High","OR 6.31 for gestational hypertension; OR 3.61 for preeclampsia","AMA + high BMI: worst outcomes","Multiparity + high BMI: increased risk","11"
+"BMI > 30 pre-pregnancy","≥ 30 kg/m²","Highest clinical risk","Pooled rate 7.1% (95% CI 6.1-8.2%) PE","AMA + BMI > 30: OR 3.61 for PE","Nulliparity + obesity: maximum risk","10"

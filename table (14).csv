@@ -1,0 +1,4 @@
+"Parameter","Value","Cross-reference with Age","Cross-reference with BMI","Cross-reference with Parity","Source"
+"Pooled rate of PE","6.2% (95% CI 4.7-7.9%)","AMA: common indication for ART","BMI: affects outcomes","Nulliparity: common in ART","10"
+"Pooled RR for PE","1.8 (95% CI 1.6-2.1)","Age: major confounder","BMI: unknown","Parity: not specified","10"
+"ART in twin pregnancies","""Protective"" against perinatal mortality (specialist care effect)","AMA: increased risk despite ART","BMI: effect attenuated vs singletons","Parity: not specified","8"

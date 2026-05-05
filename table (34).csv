@@ -1,0 +1,7 @@
+"Risk Factor","vs Age","vs BMI","vs Nulliparity","vs Multiparity","vs Family History"
+"Advanced Maternal Age (≥35)","Baseline","OR 2.13-2.90 (GDM)","OR 2.91 (PE)","RR 1.96 (multiparous)","RR 1.68 (FH DM)"
+"BMI > 30","OR 3.61 (PE)","Baseline","RR 2.47 (PE)","OR 1.838 (PIH in GMP)","OR 2.77 (FH DM)"
+"Nulliparity","OR 2.91 (PE)","RR 2.47","Baseline","-","OR 2.90 (FH PE)"
+"GMP (Para ≥5)","Age adjusted","BMI main factor","Different from multiparous","Baseline","Not specified"
+"Family History PE","Not additive","Not additive","OR 2.90 combined","Not specified","Baseline"
+"Family History DM","OR 2.17 combined","OR 2.90 combined","Not specified","OR 1.37 combined","Baseline"

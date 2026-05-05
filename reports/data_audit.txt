@@ -1,0 +1,51 @@
+======================================================================
+DATA QUALITY AUDIT REPORT
+======================================================================
+
+[COHORT SUMMARY]
+Total patients: 1000
+Preeclampsia cases: 115 (11.5%)
+Control (no PE): 885 (88.5%)
+
+[MISSINGNESS ANALYSIS]
+  plgf_pg_ml: 606 missing (60.6%)
+  sflt1_plgf_ratio: 606 missing (60.6%)
+
+[CLASS BALANCE BY ETHNICITY]
+  Asian       : N=144, PE rate= 12.5%
+  White       : N=488, PE rate= 12.3%
+  Hispanic    : N=211, PE rate= 10.9%
+  Black       : N=157, PE rate=  8.9%
+
+[CLASS BALANCE BY AGE GROUP]
+  <20     : N= 15, PE rate= 13.3%
+  20-34   : N=663, PE rate=  9.5%
+  35-39   : N=235, PE rate= 14.9%
+  >=40    : N= 87, PE rate= 17.2%
+
+[CONTINUOUS VARIABLE SUMMARY]
+  age                      : mean=  32.19 ±   5.86, median=  32.25, range=[16.0, 50.0]
+  bmi                      : mean=  27.02 ±   5.47, median=  26.90, range=[16.0, 43.8]
+  systolic_bp              : mean= 119.90 ±  13.56, median= 116.90, range=[91.2, 165.4]
+  diastolic_bp             : mean=  72.12 ±   9.57, median=  70.90, range=[44.6, 111.6]
+  gestational_age_weeks    : mean=  27.02 ±   7.56, median=  27.00, range=[14.0, 40.0]
+
+[CATEGORICAL VARIABLE DISTRIBUTION]
+  Nulliparous: 343 (34.3%)
+  Prior PE: 19 (1.9%)
+  Chronic HTN: 55 (5.5%)
+  Diabetes: 33 (3.3%)
+  CKD: 30 (3.0%)
+
+[PLAUSIBILITY CHECKS]
+  Implausible SBP: 0 cases flagged
+  Implausible age: 0 cases flagged
+  Implausible BMI: 0 cases flagged
+  ✓ All values within plausible clinical ranges
+
+[DATA PROVENANCE]
+  Source: Synthetic data generated from epidemiological odds ratios
+  Baseline PE prevalence: 5% (general population)
+  Random seed: 42 (reproducible)
+
+======================================================================

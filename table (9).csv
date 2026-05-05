@@ -1,0 +1,7 @@
+"Parameter","Value","Cross-reference with Age","Cross-reference with BMI","Cross-reference with Parity","Source"
+"Previous GDM","OR 3.27 (95% CI 2.81-3.80)","Age ≥ 25: OR 2.17; combined highest","BMI: additive","Multiparity ≥ 2: OR 1.37","6"
+"GDM in current pregnancy → PE","OR 6.57 (95% CI 1.94-22.25)","AMA: amplified","BMI > 30: additive","Nulliparity: baseline","19"
+"BMI 25-29.9 (GDM risk)","OR 2.13 (95% CI 1.65-2.74)","AMA: combined risk","Baseline for BMI effect","Multiparity: OR 1.37","4"
+"BMI ≥ 30 (GDM risk)","OR 2.90 (95% CI 2.15-3.91)","AMA: worst outcomes","Reference BMI < 20","Nulliparity: higher CS rate","4"
+"Maternal obesity + GDM","OR 6.28 (95% CI 3.01-13.06) for GDM","AMA: additive","Baseline for obese category","Multiparity: protective","11"
+"GDM with PIH","Risk prediction model AUC 0.821","AMA: independent risk","Pre-pregnancy BMI: independent","Primipara: studied specifically","5"

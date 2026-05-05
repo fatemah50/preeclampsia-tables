@@ -1,0 +1,6 @@
+"Parameter","Value","Clinical Use","Cross-reference with Age","Cross-reference with BMI","Cross-reference with Parity","Source"
+"NGAL (Neutrophil Gelatinase-Associated Lipocalin)","< 43 pg/ml at 25-28 weeks","Kidney injury marker","Age: unclear","BMI: unclear","Parity: unclear","1"
+"Obstructive Sleep Apnea (OSA)","Risk factor","PE association","Age: older = more OSA","BMI: obesity = more OSA","Parity: unclear","1"
+"Vitamin D deficiency (< 20 ng/ml)","OR 2.66 (95% CI 1.01-7.02) for GDM","GDM risk after BMI adjustment","Age: not adjusted","BMI: adjusted in study","Parity: not adjusted","33"
+"Each 5 ng/ml decrease in 25-OH-D","OR 1.29 (95% CI 1.05-1.60) for GDM","Continuous risk","Age: not adjusted","BMI: adjusted","Parity: not adjusted","33"
+"Gram-negative colonization risk factors","AMA, increased BMI, prior abortions, earlier GA, IVF","Preterm birth risk","AMA: independent factor","BMI: independent factor","Prior abortions: factor","34"

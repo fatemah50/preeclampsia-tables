@@ -1,0 +1,7 @@
+"Age Group","Risk Level","Relative Risk (RR) / Odds Ratio (OR)","Cross-reference with BMI","Cross-reference with Parity","Cross-reference with Family History","Source"
+"< 20 years","Low","Reference","BMI < 25: RR 1.0 (underweight association with LBW, not PE)","Nulliparity: Standard risk","No FH: baseline","2"
+"20-34 years","Baseline","1.0 (Reference)","Normal BMI 18.5-24.9: baseline","Multiparity: protective","No FH: baseline","3"
+"35-39 years","Moderate increase","RR 1.3-1.5","BMI 25-29.9: OR 2.13 for GDM","Multiparity ≥2: OR 1.37 for GDM","FH diabetes: RR 1.68","4"
+"≥ 35 years (Advanced Maternal Age)","High","RR 1.96 (95% CI 1.34-2.87) for multiparous","BMI > 30: OR 2.90 for GDM","Nulliparity: OR 2.91","FH hypertension: OR 2.06","2"
+"≥ 40 years","Very High","RR 1.96 for multiparous women","BMI > 30: OR 3.61 for preeclampsia","Nulliparity + AMA: highest risk","FH preeclampsia: OR 2.90","2"
+"AMA (≥35) + GDM","Highest","AUC 0.821 for adverse outcomes","Pre-pregnancy BMI significant predictor","Primipara: independent risk factor","FH diabetes: OR 2.77","5"

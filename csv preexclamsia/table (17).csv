@@ -1,0 +1,6 @@
+"Parameter","Value","Cross-reference with Age","Cross-reference with BMI","Cross-reference with Parity","Source"
+"Thrombocytopenia (HELLP)","Platelet < 100,000/μL","AMA: same","BMI: same","Parity: same","1"
+"Impaired liver function","AST/ALT elevated","AMA: same","BMI: same","Parity: same","1"
+"ALT normal range","5-35 U/L","Age: baseline","BMI: NAFLD risk","Parity: baseline","1"
+"AST normal range","5-40 U/L","Age: baseline","BMI: NAFLD risk","Parity: baseline","1"
+"ALP normal range (adult)","44-147 U/L","Age: increases with age","BMI: unclear","Parity: baseline","1"

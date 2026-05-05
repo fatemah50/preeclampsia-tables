@@ -1,0 +1,5 @@
+
+dist
+.env
+.DS_Store
+VITE_GROQ_API_KEY=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> .env 

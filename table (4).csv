@@ -1,0 +1,5 @@
+"Parameter","Value","Cross-reference with Age","Cross-reference with BMI","Cross-reference with Family History","Source"
+"Nulliparity RR for PE","2.91 (95% CI 1.28-6.61)","AMA + nulliparity: highest risk","BMI > 30 + nulliparity: additive","FH PE: OR 2.90 combined effect","2"
+"Nulliparity OR for LBW","1.41 (95% CI 1.26-1.58)","Young nulliparas: higher risk","Underweight + nulliparity: RR 1.47 for LBW","No FH: baseline nulliparity risk","14"
+"Nulliparity OR for SGA","1.89 (95% CI 1.82-1.96)","Age < 20: RR 1.81 for SGA","BMI < 18.5 + nulliparity: synergistic","FH hypertension: additional risk","14"
+"Nulliparity effect on biomarkers","Lower sFlt-1/PlGF ratio than multiparous","AMA + nulliparity: elevated ratios","BMI < 25 + nulliparity: reference for ratios","FH PE: abnormal ratios earlier","13"
