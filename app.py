@@ -44,6 +44,7 @@ except ImportError:
     REPORTLAB_AVAILABLE = False
 
 # ============================================================================
+# ============================================================================
 # STREAMLIT PAGE CONFIG & STYLING
 # ============================================================================
 st.set_page_config(
@@ -54,68 +55,42 @@ st.set_page_config(
 )
 
 # ============================================================================
-# LIGHT MODE (PERMANENT - WHITE DAY MODE)
+# DAYLIGHT MODE STYLING (WHITE PROFESSIONAL THEME)
 # ============================================================================
-# Permanently set to light mode for white daylight theme
-theme_colors = {
-    "bg_deep": "#f8f9fa",
-    "bg_panel": "#ffffff",
-    "bg_card": "#f0f2f5",
-    "border": "rgba(0,0,0,0.12)",
-    "text": "#1a1a1a",
-    "text_muted": "#666666",
-    "cyan": "#0084ff",
-    "red_alert": "#d63031",
-    "amber": "#ff9800",
-    "green_ok": "#27ae60",
-}
-
-st.markdown(f"""
+st.markdown("""
 <style>
-    * {{ box-sizing: border-box; }}
-    :root {{
-        --cyan: {theme_colors['cyan']};
-        --red-alert: {theme_colors['red_alert']};
-        --amber: {theme_colors['amber']};
-        --green-ok: {theme_colors['green_ok']};
-        --bg-deep: {theme_colors['bg_deep']};
-        --bg-panel: {theme_colors['bg_panel']};
-        --bg-card: {theme_colors['bg_card']};
-        --border: {theme_colors['border']};
-        --text: {theme_colors['text']};
-        --text-muted: {theme_colors['text_muted']};
-    }}
+    * { box-sizing: border-box; }
+    :root {
+        --cyan: #0084ff;
+        --red-alert: #d63031;
+        --amber: #ff9800;
+        --green-ok: #27ae60;
+        --bg-deep: #f8f9fa;
+        --bg-panel: #ffffff;
+        --bg-card: #f0f2f5;
+        --border: rgba(0,0,0,0.12);
+        --text: #1a1a1a;
+        --text-muted: #666666;
+    }
     
-    body {{ background-color: var(--bg-deep); color: var(--text); }}
-    .stApp {{ background-color: var(--bg-deep); }}
+    body { background-color: var(--bg-deep); color: var(--text); }
+    .stApp { background-color: var(--bg-deep); }
     
-    .alert-severe {{ background-color: rgba(255,71,87,0.1); border-left: 4px solid {theme_colors['red_alert']}; padding: 12px; border-radius: 4px; margin: 10px 0; color: var(--text); }}
-    .alert-moderate {{ background-color: rgba(255,165,2,0.1); border-left: 4px solid {theme_colors['amber']}; padding: 12px; border-radius: 4px; margin: 10px 0; color: var(--text); }}
-    .alert-low {{ background-color: rgba(46,213,115,0.1); border-left: 4px solid {theme_colors['green_ok']}; padding: 12px; border-radius: 4px; margin: 10px 0; color: var(--text); }}
-    .risk-card {{ background-color: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 8px 0; color: var(--text); }}
-    .metric-value {{ font-size: 32px; font-weight: bold; color: {theme_colors['amber']}; font-family: 'Courier New', monospace; }}
+    .alert-severe { background-color: rgba(214,48,49,0.1); border-left: 4px solid var(--red-alert); padding: 12px; border-radius: 4px; margin: 10px 0; color: var(--text); }
+    .alert-moderate { background-color: rgba(255,152,0,0.1); border-left: 4px solid var(--amber); padding: 12px; border-radius: 4px; margin: 10px 0; color: var(--text); }
+    .alert-low { background-color: rgba(39,174,96,0.1); border-left: 4px solid var(--green-ok); padding: 12px; border-radius: 4px; margin: 10px 0; color: var(--text); }
+    .risk-card { background-color: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 8px 0; color: var(--text); }
+    .metric-value { font-size: 32px; font-weight: bold; color: var(--amber); font-family: 'Courier New', monospace; }
     
-    .comparison-table {{ background-color: var(--bg-card); padding: 12px; border-radius: 6px; margin: 8px 0; border: 1px solid var(--border); color: var(--text); }}
-    .ratio-badge {{ display: inline-block; padding: 6px 12px; border-radius: 4px; margin: 4px; font-size: 12px; font-weight: bold; }}
-    .ratio-normal {{ background-color: rgba(46,213,115,0.2); color: {theme_colors['green_ok']}; border: 1px solid {theme_colors['green_ok']}; }}
-    .ratio-concern {{ background-color: rgba(255,165,2,0.2); color: {theme_colors['amber']}; border: 1px solid {theme_colors['amber']}; }}
-    .ratio-danger {{ background-color: rgba(255,71,87,0.2); color: {theme_colors['red_alert']}; border: 1px solid {theme_colors['red_alert']}; }}
+    .comparison-table { background-color: var(--bg-card); padding: 12px; border-radius: 6px; margin: 8px 0; border: 1px solid var(--border); color: var(--text); }
+    .ratio-badge { display: inline-block; padding: 6px 12px; border-radius: 4px; margin: 4px; font-size: 12px; font-weight: bold; }
+    .ratio-normal { background-color: rgba(39,174,96,0.2); color: var(--green-ok); border: 1px solid var(--green-ok); }
+    .ratio-concern { background-color: rgba(255,152,0,0.2); color: var(--amber); border: 1px solid var(--amber); }
+    .ratio-danger { background-color: rgba(214,48,49,0.2); color: var(--red-alert); border: 1px solid var(--red-alert); }
     
-    /* Light mode adjustments */
-    [data-testid="stSidebar"] {{
-        background-color: var(--bg-panel);
-        border-right: 1px solid var(--border);
-    }}
-    
-    [data-testid="stMetric"] {{
-        background-color: var(--bg-card);
-        color: var(--text);
-    }}
-    
-    .stButton > button {{
-        color: var(--text) !important;
-        border-color: var(--border) !important;
-    }}
+    [data-testid="stSidebar"] { background-color: var(--bg-panel); border-right: 1px solid var(--border); }
+    [data-testid="stMetric"] { background-color: var(--bg-card); color: var(--text); }
+    .stButton > button { color: var(--text) !important; border-color: var(--border) !important; }
 </style>
 """, unsafe_allow_html=True)
 
