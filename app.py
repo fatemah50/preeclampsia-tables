@@ -1,4 +1,6 @@
-import streamlit as st
+git add app.py
+git commit -m "Simplify to daylight mode only"
+git push origin branchimport streamlit as st
 import pandas as pd
 import numpy as np
 import json
